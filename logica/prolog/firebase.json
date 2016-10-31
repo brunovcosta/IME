@@ -1,0 +1,9 @@
+{
+  "firebase": "prolog",
+  "public": "miscellaneous/redirect/",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

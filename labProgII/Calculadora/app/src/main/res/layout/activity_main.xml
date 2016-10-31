@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bruno.calculadora.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:id="@+id/resultDisplay"
+        android:textSize="50dp"
+        android:background="#fcf5d3"
+        android:layout_alignParentTop="true" />
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_alignParentBottom="true"
+        android:rowCount="5"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+        <Button android:layout_columnWeight="1" android:textAlignment="center" android:onClick="ac" android:text="AC"/>
+        <Button android:layout_columnWeight="1" android:onClick="sign" android:text="+/-"/>
+        <Button android:layout_columnWeight="1" android:onClick="percent" android:text="%"/>
+        <Button android:layout_columnWeight="1" android:onClick="divide" android:text="÷"/>
+        <Button android:layout_columnWeight="1" android:onClick="seven" android:text="7"/>
+        <Button android:layout_columnWeight="1" android:onClick="eight" android:text="8"/>
+        <Button android:layout_columnWeight="1" android:onClick="nine" android:text="9"/>
+        <Button android:layout_columnWeight="1" android:onClick="times" android:text="x"/>
+        <Button android:layout_columnWeight="1" android:onClick="four" android:text="4"/>
+        <Button android:layout_columnWeight="1" android:onClick="five" android:text="5"/>
+        <Button android:layout_columnWeight="1" android:onClick="six" android:text="6"/>
+        <Button android:layout_columnWeight="1" android:onClick="minus" android:text="-"/>
+        <Button android:layout_columnWeight="1" android:onClick="one" android:text="1"/>
+        <Button android:layout_columnWeight="1" android:onClick="two" android:text="2"/>
+        <Button android:layout_columnWeight="1" android:onClick="three" android:text="3"/>
+        <Button android:layout_columnWeight="1" android:onClick="plus" android:text="+"/>
+        <Button android:layout_columnWeight="2" android:onClick="zero" android:text="0"/>
+        <Button android:layout_columnWeight="1" android:onClick="comma" android:text="."/>
+        <Button android:layout_columnWeight="1" android:onClick="equals" android:text="="/>
+    </GridLayout>
+</RelativeLayout>
