@@ -1,3 +1,3 @@
 dropdb vf
 createdb vf
-cat banco_imobiliario.sql | psql vf
+cat banco_imobiliario.pgsql | psql vf

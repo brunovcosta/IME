@@ -22,7 +22,7 @@ create table regras.tabuleiros(
 create table regras.casas_tabuleiros(
 	tabuleiro_id integer not null,
 	casa_id integer not null,
-	posicao integer not null,
+	posicao integer default 0 not null,
 	constraint ct_pk primary key (tabuleiro_id,posicao),
 	constraint ct_tabuleiros_fg foreign key (tabuleiro_id) references regras.tabuleiros (id)
 		on delete cascade
@@ -56,7 +56,7 @@ create table estados.jogos(
 create table estados.jogadas(
 	jogo_id integer not null,
 	jogador_id integer not null,
-	posicao integer not null,
+	posicao integer not null default 0,
 	pontuacao integer default 0 not null,
 	dinheiro integer default 500 not null,
 	compra boolean default false not null,
@@ -68,19 +68,21 @@ create table estados.jogadas(
 		on delete cascade
 		on update cascade
 );
+
 --TRIGGERS
 create function transacoes() returns trigger as
-' begin
-	if new.compra = true and new.dinheiro >= all (
-				select c.preco
-				from estados.jogos j
-				left join regras.casas_tabuleiros ct
-				on ct.tabuleiro_id = j.tabuleiro_id
-				left join regras.casas c
-				on c.id = ct.casa_id
-				where
-					ct.posicao = new.posicao
-			)
+$$
+begin
+	if(new.compra = true and new.dinheiro >= all (
+			select c.preco
+			from estados.jogos j
+			left join regras.casas_tabuleiros ct
+			on ct.tabuleiro_id = j.tabuleiro_id
+			left join regras.casas c
+			on c.id = ct.casa_id
+			where
+				ct.posicao = new.posicao
+		))
 	then
 		update estados.jogadas
 		set
@@ -95,15 +97,37 @@ create function transacoes() returns trigger as
 					ct.posicao = new.posicao
 			)
 		where
-			jogador.id = new.jogador_id and
-			jogo_id = new.jogo.id
+			jogador_id = new.jogador_id and
+			jogo_id = new.jogo_id;
 	end if;
-end;' language plpgsql; 
+	return new;
+end
+$$ language plpgsql;
 create trigger ao_caminhar
-	before update
+	after update
 	of posicao
 	on estados.jogadas
 	for each row
 	execute procedure transacoes();
 
+--BÁSICO SQL
+insert into regras.tabuleiros(nome) values('IME');
+insert into regras.casas(nome,preco,pontuacao) values('auditório',50,5000);
+insert into regras.casas(nome,preco,pontuacao) values('secretaria se/8',65,4936);
+insert into regras.casas(nome,preco,pontuacao) values('lab info',30,6000);
+insert into regras.casas(nome,preco,pontuacao) values('sala da yoko',65,310);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,1,1);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,2,2);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,3,3);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,2,4);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,3,5);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,2,6);
+insert into regras.casas_tabuleiros(tabuleiro_id,casa_id,posicao) values (1,4,7);
 
+insert into estados.jogos(nome,tabuleiro_id) values('IME IMOBILIÁRIO',1);
+insert into estados.jogadores(nome,login,password_hash) values ('Bruno Vieira Costa','brunovcosta','123123');
+insert into estados.jogadores(nome,login,password_hash) values ('Bruno Lerner','brulerner','123123');
+insert into estados.jogadores(nome,login,password_hash) values ('Thiago Tergolino','tergol','123123');
+insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,1,true);
+insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,2,false);
+insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,3,true);
