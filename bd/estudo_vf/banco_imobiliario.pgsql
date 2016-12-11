@@ -131,3 +131,11 @@ insert into estados.jogadores(nome,login,password_hash) values ('Thiago Tergolin
 insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,1,true);
 insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,2,false);
 insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,3,true);
+
+--VIEWS
+create view jogo_atual as
+	select nome,posicao
+	from estados.jogadas
+	left join estados.jogadores
+	on jogadores.id = jogadas.jogador_id
+	order by posicao;
