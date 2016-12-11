@@ -95,6 +95,16 @@ begin
 				on c.id = ct.casa_id
 				where
 					ct.posicao = new.posicao
+			),
+			pontuacao = pontuacao + (
+				select c.pontuacao
+				from estados.jogos j
+				left join regras.casas_tabuleiros ct
+				on ct.tabuleiro_id = j.tabuleiro_id
+				left join regras.casas c
+				on c.id = ct.casa_id
+				where
+					ct.posicao = new.posicao
 			)
 		where
 			jogador_id = new.jogador_id and
