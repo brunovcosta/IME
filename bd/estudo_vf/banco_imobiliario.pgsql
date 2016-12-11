@@ -134,8 +134,10 @@ insert into estados.jogadas (jogo_id,jogador_id,compra) values (1,3,true);
 
 --VIEWS
 create view jogo_atual as
-	select nome,posicao
+	select jogos.nome as jogo,jogadores.nome as jogador,posicao
 	from estados.jogadas
 	left join estados.jogadores
 	on jogadores.id = jogadas.jogador_id
+	left join estados.jogos
+	on jogos.id = jogadas.jogo_id
 	order by posicao;
