@@ -73,7 +73,7 @@ create table estados.jogadas(
 create function transacoes() returns trigger as
 $$
 begin
-	if(new.compra = true and new.dinheiro >= all (
+	if(new.compra = true and new.dinheiro >= (
 			select c.preco
 			from estados.jogos j
 			left join regras.casas_tabuleiros ct
