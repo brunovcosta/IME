@@ -1,0 +1,66 @@
+##### INTERVALO DE CONFIANCA - Desvio padrao conhecido#####
+
+x.bar<-weighted.mean(PM, f)
+x.bar 
+
+n<-length(data) 
+n 
+
+dp.p<-7 # valor do desvio-padrão populacional
+
+se = dp.p/sqrt(n) 
+se 
+IC.média<-x.bar + c(-qnorm(.975)*se, qnorm(.975)*se) 
+IC.média 
+
+##### INTERVALO DE CONFIANCA - dv-p desconhecido#####
+
+x<-c(341, 345, 338, 339, 340, 343, 341, 343, 341, 328, 343, 347, 337, 348, 339)
+n<-length(x)
+n
+ 
+x.bar<-mean(x)
+x.bar
+
+dp<-sd(x)
+dp
+
+se = dp/sqrt(n)
+se 
+
+IC.média<-x.bar + c(-qt(.975, n-1)*se,qt(.975, n-1)*se)
+IC.média
+
+##### INTERVALO DE CONFIANCA - para a variancia#####
+var.x<-var(x) # calcula a variância
+var.x # verifica o resultado
+
+qui.i<-qchisq(0.025, n-1) # calcula o Qui-quadrado inferior
+qui.i # verifica o resultado
+
+qui.s<-qchisq(0.975, n-1) # calcula o Qui-quadrado superior
+qui.s # verifica o resultado
+
+IC.Var<-c(var.x*(n-1)/qui.s, var.x*(n-1)/qui.i) 
+IC.Var 
+
+##### INTERVALO DE CONFIANCA - para desvio padrao#####
+IC.dp<-c(sqrt(var.x*(n-1)/qui.s), sqrt(var.x*(n-1)/qui.i))
+IC.dp 
+
+
+##### INTERVALO DE CONFIANCA - para proporcao#####
+x<-c(341, 345, 338, 339, 340, 343, 341, 343, 341, 328, 343, 347, 337, 348, 339)
+n<-length(x) 
+n 
+
+for(i in 1:n){
+if(x[i]<340){x[i]<-1}else{x[i]<-0}
+}
+x 
+
+p<-mean(x)
+p
+
+IC.p<-c(p-z*sqrt((p)*(1-p)/n), p+z*sqrt((p)*(1-p)/n)) 
+IC.p

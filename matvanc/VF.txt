@@ -1,0 +1,153 @@
+###########################
+## 1. TIPOS DE VARIÁVEIS ##
+###########################
+
+##01. Gender-Qualitativa Nominal
+
+##02. Nationality-Qualitativa Nominal
+
+##03. Place of birth-Qualitativa Nominal
+
+##04. Educational Stages-Qualitativa Ordinal
+
+##05. Grade Levels-Qualitativa Ordinal
+
+##06. Section ID-Qualitativa Nominal
+
+##07. Topic-Qualitativa Nominal
+
+##08. Semester-Qualitativa Ordinal
+
+##09. Parent-Qualitativa Nominal
+
+##10. Raised hand-Quantitativa Discreta
+
+##11. Visited resources-Quantitativa Discreta
+
+##12. Viewing announcements-Quantitativa Discreta
+
+##13. Discussion groups-Quantitativa Discreta
+
+##14. Parent Answering Survey-Qualitativa Nominal
+
+##15. Parent School Satisfaction-Qualitativa Nominal
+
+##16. Student Absence Days-Qualitativa Ordinal
+
+##17. Class-Qualitativa Nominal
+
+
+###############################
+## 2. VARIÁVEIS QUALITATIVAS ##
+###############################
+
+############
+## Gender ##
+############
+        f   F        fr       Fra
+F     175 175 0.3645833 0.3645833
+M     305 480 0.6354167 1.0000000
+Total 480  NA 1.0000000        NA
+
+#############
+## StageID ##
+#############
+               f   F        fr       Fra
+HighSchool    33  33 0.0687500 0.0687500
+lowerlevel   199 232 0.4145833 0.4833333
+MiddleSchool 248 480 0.5166667 1.0000000
+Total        480  NA 1.0000000        NA
+
+
+################################
+## 3. VARIÁVEIS QUANTITATIVAS ##
+################################
+
+################
+## raisehands ##
+################
+
+## a) Tabela de Distribuição de frequências
+
+      Intervalos PM   f     F     fr                   Fra                
+      "0|-10"    "5"  "81"  "81"  "0.16875"            "0.16875"          
+      "10|-20"   "15" "70"  "151" "0.145833333333333"  "0.314583333333333"
+      "20|-30"   "25" "46"  "197" "0.0958333333333333" "0.410416666666667"
+      "30|-40"   "35" "28"  "225" "0.0583333333333333" "0.46875"          
+      "40|-50"   "45" "29"  "254" "0.0604166666666667" "0.529166666666667"
+      "50|-60"   "55" "28"  "282" "0.0583333333333333" "0.5875"           
+      "60|-70"   "65" "50"  "332" "0.104166666666667"  "0.691666666666667"
+      "70|-80"   "75" "77"  "409" "0.160416666666667"  "0.852083333333333"
+      "80|-90"   "85" "49"  "458" "0.102083333333333"  "0.954166666666667"
+      "90|-100"  "95" "22"  "480" "0.0458333333333333" "1"                
+Total "Total"    NA   "480" NA    "1"                  NA            
+
+
+## d) Média
+45.22917
+
+## d) Mediana
+45.17241
+
+## d) Moda
+5
+
+## e) Variância
+917.0664
+
+
+## 3 e) Desvio-padrão
+30.2831
+
+## 3 e) Coeficiente de variação
+66.95481
+
+## 3 f) Calcular o coeficiente de assimetria, e classificar a distribuição;
+-0.01958213
+Assimetria Negativa
+
+## 3 g) Calcular o coeficiente de curtose, e classificar a distribuição.
+0.3685822
+Distribuição Platicúrtica
+
+
+#####################################
+## 4. TESTE DE HIPÓTESE PARA MÉDIA ##
+#####################################
+
+## a)
+z.test = function(amos, mu0){
+   zeta = (mean(amos) - mu0) / (sqrt(var(amos) / length(amos)))
+   return(zeta)
+}
+
+amos<- dados[["VisITedResources"]] #amostra
+
+mu0 = 50  #média populacional conhecida(H0)
+
+z = z.test(amos, mu0) # test statistic
+z
+
+alpha = .05 
+
+z.half.alpha = qnorm(1-alpha/2) # valor crítico bilateral
+z.half.alpha                       
+c(-z.half.alpha, z.half.alpha) # intervalo de comparação
+res<-0
+if(z<(-z.half.alpha) | z>z.half.alpha){res<-c("Rejeita")}else{res<-c("Não Rejeita")}
+res #resultado do teste
+
+z.alpha = qnorm(1 - alpha)  # valor crítico unilaterla à direita
+z.alpha
+res<-0
+if(z>z.alpha){res<-c("Rejeita")}else{res<-c("Não Rejeita")}
+res  #resultado do teste
+
+z.alpha = qnorm(1 - alpha)  # valor crítico unilaterla à esquerda
+-z.alpha
+res<-0
+if(z<(-z.alpha)){res<-c("Rejeita")}else{res<-c("Não Rejeita")}
+res #resultado do teste
+
+## b)
+Não Rejeita

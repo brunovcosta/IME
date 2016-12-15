@@ -1,0 +1,11 @@
+Media: 45.22917
+Mediana: 45.17241
+Moda: 5
+Variancia: 917.0664
+Desvio-padrao: 30.2831
+Coeficiente de variacao: 66.95481
+Assimetria: -0.01958213
+Classificacao de assimetria: Assimetria Negativa
+Curtose: 0.3685822
+Classificação da distribucao: Distribuição platicúrtica
+

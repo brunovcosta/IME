@@ -1,0 +1,224 @@
+######################################
+#######Entrada de dados###############
+######################################
+
+dat<-scan()
+
+dat
+summary(dat)
+
+getwd()##Vendo o diretório de trabalho
+setwd("e:/01.Arquivos.05Dez15/Comp_IME") ##Escolhendo o diretório de trabalho
+
+
+data<-scan("dados_txt.txt")
+data
+
+
+data <-read.table("dados_txt1.txt", header=T)
+data
+
+data <-read.table("dados_txt1.txt")
+data
+
+
+data1 <-read.csv("dados_csv.csv",dec=",",sep=";",header =T)
+data1
+
+
+data<-read.table("dados_alunos.txt", header=T)
+data<-read.table("dados_alunos1.txt", header=T)
+data
+
+install.packages("XLConnect")
+library(XLConnect)
+
+dados<-readWorksheet(loadWorkbook("dados_alunos1.xls"),sheet=1)
+dados
+
+head(dados, 5)
+tail(dados, 5)
+
+##############Tabelas#################
+
+tab1<-table(dados$SEXO)
+tab1
+
+p.tab1<-prop.table(tab1)
+p.tab1
+
+p.tab1<-round(prop.table(tab1), 2)
+p.tab1
+
+##########Gráfico de Barras Simples##############33
+
+barplot(tab1,main="Gráfico de Barras\n Variável: Sexo", 
+        ylab= "Frequência", xlab="Sexo", col=c("pink", "blue"))
+
+barplot(tab1,main="Gráfico de Barras\n Variável: Sexo", 
+     ylab= "Frequência", xlab="Sexo", col=c("blue", "pink"), hor=T)
+
+]par(las=1)
+
+par(mfrow=c(1,1))
+
+#########Gráfico de Barras Duplas#####
+
+tab2<-table(dados$SEXO, dados$GRUPO)
+tab2
+
+barplot(tab2, beside=T, legend = T)
+barplot(tab2, beside=T, col=c("pink", "blue"), main="Gráfico de Barras Duplas")
+legend("top", legend=c("Feminino", "Masculino"), fill=c("pink", "blue"))
+
+############Barras Empilhadas#########
+
+barplot(tab2)
+barplot(tab2, legend = T)
+barplot(tab2, legend = T, col=c("pink", "blue"), main="Gráfico de Barras Empilhadas")
+
+
+###########Barras complementares###########33333
+
+p.tab2<-prop.table(tab2,2)
+p.tab2
+
+barplot(p.tab2)
+barplot(p.tab2, legend = T)
+barplot(p.tab2, legend = T,col=c("pink", "blue"), main="Gráfico de Barras Complementares")
+
+
+###########Gráfico de Barras 3D###########
+
+
+tab<-table(dados$SEXO, dados$TIME)
+
+require(latticeExtra)
+
+
+tab
+cloud(tab, panel.3d.cloud = panel.3dbars,xbase = 0.3, ybase = 0.6, col="black", xlab="Estado Civil", ylab="Times", zlab="Freqüências" , 
+scales = list(arrows = FALSE, just = ""), col.facet="blue", main="Gráfico de Barras 3-D", ticktype="detailed")
+
+require(epade)
+bar3d.ade(tab,  xw=0.5, zw=0.5, wall=1, alpha=1, col="blue")
+??bar3d.ade
+
+
+######Gráfico de Setores######
+
+pie(tab1, labels = c("FEMININO","MASCULINO"),main="Distribuição dos elementos da amostra segundo sexo")
+
+
+rotulos = paste(c("FEMININO","MASCULINO") ," (", 100*p.tab1[],"%)", sep="")
+rotulos
+rotulos1 = paste(" (", 100*p.tab1[],"%)")
+rotulos1
+
+pie(tab1, labels = rotulos ,main="Distribuição dos elementos\n da amostra segundo sexo")
+pie(tab1, labels = rotulos ,main="Distribuição dos elementos\n da amostra segundo sexo", col=c("pink", "blue"))
+
+pie(tab1, labels = rotulos1, main = "Distribuição dos elementos da amostra segundo sexo",col=c("pink", "blue"))
+legend("topright", c("Feminino", "Masculin"), cex = 0.8,  fill =c("pink", "blue"))
+
+######Gráfico de Setores 3-D######
+
+library(plotrix)
+pie3D(tab1,labels = rotulos1,explode = 0.1, main = "Distribuição dos elementos da amostra segundo sexo", 
+      col=c("pink", "blue"), )
+legend("topright", c("Feminino", "Masculin"), cex = 0.8,  fill =c("pink", "blue"))
+
+##########Mosaico###########333
+
+mosaicplot(tab2)
+mosaicplot(tab2, main="Distribuição de Sexo por Time", color=T)
+mosaicplot(tab2, main="Distribuição de Sexo por Time", col=rainbow(5))
+
+############Time series###########
+
+************************************
+*****configuração numérica**********
+************************************
+options(digits=2)
+print(1e5)
+options(scipen=3, digits=3)
+print(1e-5)
+print(1e5)
+
+
+
+souvenir <- scan("http://robjhyndman.com/tsdldata/data/fancy.dat")
+souvenir
+plot(souvenir, type="l")
+plot(souvenir)
+
+souvenirts <- ts(souvenir, frequency=12, start=c(1987,1))
+souvenirts
+plot(souvenirts)
+
+########Box-plot#############3
+
+boxplot(dados$IDADE,ylab="Idade", main="Boxplot para variável Idade")
+boxplot(dados$IDADE,ylab="Idade", main="Boxplot para variável Idade", col="blue")
+
+boxplot(dados$IDADE~dados$SEXO , ylab = "Idade",main = "Boxplot de Idade por Sexo")
+boxplot(dados$IDADE~dados$SEXO , ylab = "Idade",main = "Boxplot de Idade por Sexo", col=c("pink", "blue"))
+
+##########Ramo e Folha########
+
+stem(dados$IDADE)
+
+##########Stripchart######
+
+stripchart(dados$IDADE,method="stack", xlab= "Idade", main="Diagrama de Pontos para variável Idade")
+
+
+
+
+#########Histograma###########
+
+attach(dados)
+
+hist(IDADE)
+
+hist(IDADE, main="Histograma para variável Idade", 
+     xlab="Idade", ylab="Freqüências", col="blue")
+
+hist(IDADE, freq=F, main="Histograma para variável Idade", xlab="Idade", ylab="Densidade de Freqüências", col="blue")
+
+
+###############Histograma com Polígono de Freqüências##############
+h<-hist(IDADE)
+
+names(h)
+h$breaks
+h$counts
+
+br<-h$breaks
+br
+
+par(las=1)
+h.id<-hist(IDADE, breaks=br, axes=F, col="blue", main="Histograma com Polígono de Freqüências", xlab="Intervalos", ylab="Freqüências")
+axis(1, at=br, pos=0)
+axis(2, at=seq(0, max(h$counts), by=1), pos=min(br))
+
+c<-c(0, h$counts, 0)
+c
+x.m<-c(min(br), h$mids, max(br))
+x.m
+lines(x.m, c, lwd=1, lty=2)
+
+###############Freqüências Acumuladas############
+
+f<-c(0, h$counts)
+f
+
+fac<-cumsum(f)
+fac
+
+plot(br, fac, type="l", lty=2, main="Freqüências Acumuladas", xlab="Intervalos", ylab="Freqüencias")
+points(br, fac, pch=16)
+
+
+
+

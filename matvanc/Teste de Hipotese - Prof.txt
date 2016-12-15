@@ -1,0 +1,43 @@
+#########Teste de hipotese sobre variancias de 2distribuições normais ######
+
+> ma <- c(145, 127, 136, 142, 141, 137)
+> na <- length(ma)
+> na
+
+> mb <- c(143, 128, 132, 138, 142, 132)
+> nb <- length(mb)
+> nb
+
+> ma.v <- var(ma)
+> ma.v
+
+> mb.v <- var(mb)
+> mb.v
+
+> fcalc <- ma.v/mb.v
+> fcalc
+
+> pval <- 2 * pf(fcalc, na-1, nb-1, lower=F)
+> pval
+
+##### Exemplo do uso do p-value – teste unilateral #######
+
+x1<- c(12,15,17,13,13) #criando o vetor de dados
+mu<-12 #definindo o valor da H zero
+m1<-mean(x1) #obtendo a média dos dados
+sd1<-sd(x1) #obtendo o desvio padrão dos dados
+n1<-length(x1) #obtendo o tamanho da amostra
+tcalc1<-(m1-mu)/(sd1/sqrt(n1)) #obtendo o valor da estatística do teste
+valor.p1<-1-pt(tcalc1,df=n1-1) #obtendo o valor do p-value
+ttab<-qt(.95,df=n1-1) #obtendo o valor do t tabelado 
+
+#### Exemplo do uso do p-value – teste bilateral ######3
+
+x1<- c(12,15,15,14,14) #criando o vetor de dados
+mu<-12 #definindo o valor da H zero
+m1<-mean(x1) #obtendo a média dos dados
+sd1<-sd(x1) #obtendo o desvio padrão dos dados
+n1<-length(x1) #obtendo o tamanho da amostra
+tcalc1<-(m1-mu)/(sd1/sqrt(n1)) #obtendo o valor da estatística do teste
+valor.p1<-2*(1-pt(tcalc1,df=n1-1)) #obtendo o valor do p-value
+ttab<-qt(.975,df=n1-1) #obtendo o valor do t tabelado 
