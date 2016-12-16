@@ -1,0 +1,1 @@
+<%= (Double.parseDouble(request.getParameter("liquido"))/0.92)*(1+0.08+0.008+0.08+0.032) %>
