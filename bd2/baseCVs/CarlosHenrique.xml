@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<CV>
+     <InformacoesPessoais>
+                    <Nome>
+                           <PrimeiroNome>Carlos Henrique
+                           </PrimeiroNome>
+                           <SobreNome>Pimentel Paiva
+                           </SobreNome>
+                    </Nome>
+					<Pai> Lúcio Carlos Ferreira Paiva</Pai>
+					<Mae> Rita Lúcia Pimentel</Mae>
+                   <DataNascimento> 10/05/1992
+                   </DataNascimento>
+				   <CPF >025.483.393.43</CPF>
+				   <Identidade orgao="SSP-CE">2005009031814</Identidade>
+                   <Sexo> Masculino</Sexo>
+				   <Nacionalidade UF="CE">Brasileiro</Nacionalidade>
+     </InformacoesPessoais> 
+	<InformacoesProfissionais>
+                      <Formacao>
+						  <Graduacao conclusao="2015" duracao="5 anos">
+								Engenheiro de Computação, Instituto Militar de Engenharia, 2011- 2015
+						  </Graduacao>
+						  <EnsinoMedio conclusao="2009">Colégio Militar de Fortaleza
+						  </EnsinoMedio>
+					  </Formacao>
+					  <Experiencia>
+							<Estagio duracao="1mes"> 52º Centro de Telemática do Exército Brasileiro</Estagio>
+							<IniciacaoCientifica duracao="1 ano" orientador="Leonardo Cardoso"> Estudo da Triangulação de Delaunay na Esfera</IniciacaoCientifica>
+					  </Experiencia>
+					  <Premios>
+							Medalha de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas 2009
+					  </Premios>
+	</InformacoesProfissionais> 
+	<OutrasInformacoes>
+					<Cursos>
+						Práticas ágeis, desenvolvimento de software e .net 
+					</Cursos>
+					<LinguasEstrangeiras>
+					       Inglês intermediário e francês básico.
+					</LinguasEstrangeiras>
+	</OutrasInformacoes>
+</CV>

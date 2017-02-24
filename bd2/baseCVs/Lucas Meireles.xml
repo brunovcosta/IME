@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root tipo="proposito geral">
+    <informacaopessoal>
+        <nome>Lucas Sousa Meireles</nome>
+        <endereço>
+            <rua> Rua Alfredo Correia </rua> 
+            <numero> 150 </numero>
+            <cidade>Rio de Janeiro </cidade>
+            <estado>Rio de Janeiro </estado>
+            <localreferencia tipo="Ponto Turistico">
+                <local> Praça Renato Russo </local>
+            </localreferencia>
+        </endereço>
+        <telefone tipo="celular">21 988222934 </telefone>
+        <contato>
+            <linkedin> https://www.linkedin.com/profile/view?id=150799564</linkedin>
+            <skype> lucas_sousa_meireles </skype>            
+        </contato>
+    </informacaopessoal>
+    
+    <experienciaprofissional>
+        <empresa> BTGPactual </empresa>
+        <periodo> 01/2015 até Hoje </periodo>
+        <descricao> Desenvolvimento de Sistemas na área de Segurança da Informação</descricao>        
+    </experienciaprofissional>
+    
+    <formacao nivel="Superior">
+        <instituicao> Instituto Militar de Engenharia </instituicao>
+        <curso> Engenharia de Computação </curso>
+        <inicio> 2012 </inicio>
+        <conclusao> 2016 </conclusao>
+        <topicos> Estrutura de dados
+                  Analise e projeto de Sistemas
+                  Analise e projeto de algoritmos
+                  Banco de dados
+                  Aplicações Web </topicos>
+    </formacao>
+    
+    <formacao nivel="Medio">
+        <instituicao> Colégio Cruzeiro </instituicao>
+        <curso> Técnico em Eletroeletrônica </curso>
+        <inicio> 1999 </inicio>
+        <conclusao> 2011 </conclusao>        
+        <topicos>
+            Português
+			Geografia
+			Matemática
+			Biologia
+        </topicos>
+    </formacao>
+    
+    <Competencias>
+        <linguas>
+            <lingua> Ingles </lingua>
+            <compreender> Ótimo </compreender>
+            <falar> bem </falar>
+            <escrever> bem </escrever>
+        </linguas>
+		<linguas>
+            <lingua> Alemão </lingua>
+            <compreender> Ótimo </compreender>
+            <falar> bem </falar>
+            <escrever> bem </escrever>
+        </linguas>
+    </Competencias>
+
+    
+    <premiacoes>
+        <descricao> Medalha Bronze - Desafio PUC Fisica</descricao>
+        <ano> 2012 </ano>
+    </premiacoes>
+    
+	<premiacoes>
+        <descricao> Medalha Bronze - Desafio PUC Matemática</descricao>
+        <ano> 2012 </ano>
+    </premiacoes>
+	
+	<premiacoes>
+        <descricao> Medalha Bronze - Desafio PUC Química</descricao>
+        <ano> 2012 </ano>
+    </premiacoes>
+
+    <!--> Luan Ferreira Cardoso
+          Lucas Meireles
+          Lucas Cortez <-->
+</root>
+

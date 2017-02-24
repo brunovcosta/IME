@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV>
+	<Name>
+		Robinson Callou de Moura Brasil Filho
+	</Name>
+	<Body>
+		<Identificacao>
+			<Nascimento>24/05/1993</Nascimento>
+			<Naturalidade>
+				<Cidade>Fortaleza</Cidade>
+				<UF>CE</UF>
+				<Pais>Brasil</Pais>
+			</Naturalidade>
+			<Endereco>
+				<Id>1</Id>
+				<Logradouro>Rua Dona Mariana</Logradouro>
+				<Numero>203</Numero>
+				<Bairro>Botafogo</Bairro>
+				<Cidade>Rio de Janeiro</Cidade>
+				<UF>RJ</UF>
+				<CEP>22280-020</CEP>
+			</Endereco>
+			<Telefones>
+				<Telefone>
+					<Id>1</Id>
+					<Number>(21) 981829293</Number>
+				</Telefone>
+				<Telefone>
+					<Id>2</Id>
+					<Number>(21) 22467139</Number>
+				</Telefone>
+			</Telefones>
+			<Email>
+				<Id>1</Id>
+				<Value>robinson.rcmbf@gmail.com</Value>
+			</Email>
+		</Identificacao>
+		<Formacao>
+			<Graduacao>
+				<Id>1</Id>
+				<Instituicao>Instituto Militar de Engenharia</Instituicao>
+				<Curso>Engenharia de Computacao</Curso>
+				<Inicio>Fevereiro de 2012</Inicio>
+				<Fim>Dezembro de 2016</Fim>
+			</Graduacao>
+		</Formacao>
+		<Linguas>
+			<Lingua>
+				<Id>1</Id>
+				<Nome>Ingles</Nome>
+				<Nivel>Avancado</Nivel>
+			</Lingua>
+			<Lingua>
+				<Id>2</Id>
+				<Nome>Espanhol</Nome>
+				<Nivel>Intermediario</Nivel>
+			</Lingua>
+		</Linguas>
+		<Experiencias>
+			<Experiencia>
+				<Id>1</Id>
+				<Empresa>Centro Cultural Universitario de Botafogo (CCUB)</Empresa>
+				<Cargo>Monitor</Cargo>
+				<Inicio>Maio de 2013</Inicio>
+				<Fim>Dezembro de 2014</Fim>
+			</Experiencia>
+		</Experiencias>
+		<Programacao>
+			<Linguagem>
+				<Id>1</Id>
+				<Nome>C/C++</Nome>
+				<Nivel>Intermediario</Nivel>
+			</Linguagem>
+			<Linguagem>
+				<Id>2</Id>
+				<Nome>Java/Javascript</Nome>
+				<Nivel>Intermediario</Nivel>
+			</Linguagem>
+			<Linguagem>
+				<Id>3</Id>
+				<Nome>VBA</Nome>
+				<Nivel>Basico</Nivel>
+			</Linguagem>
+			<Linguagem>
+				<Id>4</Id>
+				<Nome>Prolog</Nome>
+				<Nivel>Intermediario</Nivel>
+			</Linguagem>
+			<Linguagem>
+				<Id>5</Id>
+				<Nome>SQL</Nome>
+				<Nivel>Intermediario</Nivel>
+			</Linguagem>
+		</Programacao>
+		<Meritos>
+			<Bolsas>
+				<Bolsa>
+					<Id>1</Id>
+					<Descricao>Iniciacao Cientifica no Conselho Nacional de Desenvolvimento Cientifico Tecnologico (CNPq)</Descricao>
+					<Inicio>Julho de 2012</Inicio>
+					<Fim>Marco de 2014</Fim>
+				</Bolsa>
+			</Bolsas>
+			<Publicacoes>
+				<Publicacao>
+					<Id>1</Id>
+					<Nome>Navegacao Visual: Uma aplicacao para o Kinect</Nome>
+					<Tipo>Projeto</Tipo>
+					<Evento>XLV Simposio Brasileiro de Pesquisa Operacional (XLV SBPO)</Evento>
+					<Ano>2013</Ano>
+				</Publicacao>
+			</Publicacoes>
+		</Meritos>
+	</Body>
+</CV>

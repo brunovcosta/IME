@@ -1,0 +1,26 @@
+<!> Rafael Souza da Silveira - 11045
+<CurriculumVitae>
+    <InformacoesPessoais>
+        <Nome>Rafael Souza da Silveira</Nome>
+        <Idade>23</Idade>
+        <Naturalidade>Fortaleza CE</Naturalidade>
+    </InformacoesPessoais>
+    <FormacaoAcademica>
+        <Graduacao>
+            <Instituicao>Instituto Militar de Engenharia</Instituicao>
+            <Curso>Engenharia da Computação</Curso>
+            <Conclusao>2015.2 (prevista)</Conclusao>
+        </Graduacao>
+    </FormacaoAcademica>
+    <ExperienciaProfissional>
+        <Estagios>
+            <Empresa>Descomplica</Empresa>
+            <Cargo>Back-end developer</Cargo>
+            <Tempo>8 meses</Tempo>
+        </Estagios>
+    </ExperienciaProfissional>
+    <Habilidades>C, C++, C#, Java, JavaScript, Ruby, MVC, Web API, Unit Testing, Automated UI Testing, SeleniumQ, Microsoft Test Manager, Sql Server, Design Patterns, Scrum, ASP.NET
+    </Habilidades>
+</CurriculumVitae>
+
+

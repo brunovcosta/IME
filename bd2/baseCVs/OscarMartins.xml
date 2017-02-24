@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<curriculum_vitae>
+		<dados_pessoais>
+            <nome_completo>
+              <nome>Oscar Martins</nome>
+              <sobrenome>Wanderley Filho</sobrenome>
+            </nome_completo>
+			<data_nascimento>06/05/1991</data_nascimento>
+            <contato>
+			   <telefone tipo = "residencial">(021) 2569-2056</telefone>
+               <telefone tipo  = "celular"> (021) 99777-1677</telefone>
+               <email>oscar_mwf@hotmail.com</email>
+            </contato>
+			<endereco>
+              <rua>Rua Martins Pena</rua>
+              <numero>41</numero>
+              <complemento>apto 501</complemento>
+              <bairro>Tijuca</bairro>
+              <cidade>Rio de Janeiro</cidade>
+              <estado>RJ</estado>
+            </endereco>
+            <naturalidade>RJ</naturalidade>
+         </dados_pessoais>
+
+	<formacao>
+        <segundo_grau>
+            <instituicao> ColŽgio e Curso PH</instituicao>
+            <formatura>2008</formatura>
+        </segundo_grau>
+        <ensino_superior>
+		    <instituicao>Instituto Militar de Engenharia</instituicao>
+			  <sigla>IME</sigla>
+              <curso>Engenharia de Computa‹o</curso>
+			<formatura>2015</formatura>
+            </ensino_superior>
+    </formacao>
+        
+    <experiencia>
+        <estagio>
+            <empresa>Segundo Centro de Telem‡tica de çrea</empresa>
+              <sigla>2CTA</sigla>
+              <filiacao>ExŽrcito Brasileiro</filiacao>
+                <sigla>EB</sigla>
+            <data_inicio>05/01/2014</data_inicio>
+            <data_termino>05/02/2014</data_termino>
+            <atividade_realizada>Desenvolvimento de p‡ginas WEb</atividade_realizada>
+        </estagio>
+    </experiencia>
+
+   <proficiencia_linguistica>
+       <idioma condicao = "fluente">Ingls</idioma>
+   </proficiencia_linguistica>
+</curriculum_vitae>

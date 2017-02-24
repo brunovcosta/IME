@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<alunos_que_o_fizeram>
+  <aluno>
+    <nome>Jan Segre</nome>
+    <numero>10417</numero>
+  </aluno>
+</alunos_que_o_fizeram>
+-->
+<cv>
+  <name>Jan Segre</name>
+  <contacts>
+    <email>jansegre@gmail.com</email>
+    <email>jan@segre.in</email>
+    <phone>+5521983618810</phone>
+  </contacts>
+  <networks>
+    <network url="https://github.com/jansegre/">github</network>
+    <network url="https://br.linkedin.com/in/jansegre/">linkedin</network>
+    <network url="https://facebook.com/jansegre/">facebook</network>
+  </networks>
+  <skills>
+    <skill tags="programming">C</skill>
+    <skill tags="programming">Python</skill>
+    <skill tags="programming">Ruby</skill>
+    <skill tags="programming">C++</skill>
+    <skill tags="programming">Bash</skill>
+    <skill tags="sysop">Linux</skill>
+    <skill tags="sysop">Ubuntu</skill>
+    <skill tags="sysop">Gentoo</skill>
+    <skill tags="web">HTML5</skill>
+    <skill tags="web">CSS3</skill>
+    <skill tags="web programming">JavaScript</skill>
+  </skills>
+  <experiences>
+    <experience>
+      <title>System developer</title>
+      <from approximate="true">2011-12-19</from>
+      <to approximate="true">2012-12-19</to>
+      <company>Vialink</company>
+      <description>
+        This position required programming skills, and
+        architecture planning to develop functional systems.
+      </description>
+      <related_skills>
+        <skill unlocked="true">Python</skill>
+        <skill>HTML5</skill>
+        <skill>CSS3</skill>
+        <skill>JavaScript</skill>
+      </related_skills>
+    </experience>
+    <experience>
+      <title aka="sysop">System operator</title>
+      <from approximate="true">2012-12-19</from>
+      <to>current</to>
+      <company>Vialink</company>
+      <description>
+        This position required linux knowledge as well as
+        experience with the Ubuntu distribution.
+      </description>
+      <related_skills>
+        <skill unlocked="true">Linux</skill>
+        <skill>Ubuntu</skill>
+      </related_skills>
+    </experience>
+  </experiences>
+</cv>

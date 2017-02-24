@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Nome: Yago Guimarães Coimbra, Número: 11448 -->
+<CV>
+	<header>
+		<name>Yago Guimarães Coimbra</name>
+		<adress>
+			<street>Rua Maria Lopes</street>
+			<number>269</number>
+			<complement type="Apartamento">102</complement>
+			<cep>21310050</cep>
+		</adress>
+		<email>yguimaraescoimbra@gmail.com</email>
+		<phone country_code="55" area_code="21">984567677</phone>
+	</header>
+	<education>
+		<graduation start_year="2011" completion_year="2015">
+			<course>Engenharia da Computação</course>
+			<college abbreviation="IME">Instituto Militar de Engenharia</college>
+		</graduation>
+	</education>
+	<professional_experience>
+		<experience type="intern">
+			<company>Morning Star Consulting</company>
+			<start_date>03/2013</start_date>
+			<termination_date>01/2014</termination_date>
+			<position>Estagiário em TI</position>
+			<description>
+				<topic>Desenvolvi um portal web utilizando ASP.NET MVC 3, onde foi implementada uma funcionalidade de mapas utilizando bibliotecas open source como SharpMap e Openlayers.</topic>
+				<topic>Implementei funcionalidades extras e corrigi erros de sistemas existentes, obtendo conhecimentos em C#, SQL Server e Javascript.</topic>
+				<topic>Desenvolvi planilhas automatizadas para realizar o cálculo de indicadores utilizando a ferramenta VBA do Excel.</topic>
+			</description>
+		</experience>
+		<experience type="intern">
+			<company>GetNinjas</company>
+			<start_date>01/2013</start_date>
+			<termination_date>02/2013</termination_date>
+			<position>Summer Job</position>
+			<description>
+				<topic>Criei e gerenciei mais de 80 campanhas do Google AdWords, identificando e implementando novas iniciativas para a expansão do marketing online.</topic>
+				<topic>Desenvolvi planilhas e macros para otimizar a análise das palavras chaves, usando a ferramenta VBA do Excel.</topic>
+				<topic>Organizei processo seletivo para a contratação de estagiários no setor de business inteligence.</topic>
+			</description>
+		</experience>
+		<experience type="employee">
+			<company>Colégio e Curso Ponto de Ensino</company>
+			<start_date>05/2011</start_date>
+			<termination_date>06/2012</termination_date>
+			<position>Monitor</position>
+			<description>
+				<topic>Retirei dúvidas e substituí professores nas disciplinas de Física e Matemática para alunos do ensino médio e de cursos pré-vestibular e pré-militar.</topic>
+			</description>
+		</experience>
+	</professional_experience>
+	<aditional_info>
+		<complementary_courses>
+			<course>
+				<name>VBA aplicado a negócios</name>
+				<work_load>20h</work_load>
+				<taught_by>Instituto de Engenharia de Gestão</taught_by>
+			</course>
+		</complementary_courses>
+		<languages>
+			<language>
+				<name>Inglês</name>
+				<level>Avançado</level>
+				<certificate type="TOEFL">99 Pontos</certificate>
+			</language>
+		</languages>
+	</aditional_info>
+</CV>

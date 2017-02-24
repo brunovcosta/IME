@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Aluno Victor BRAMIGK número 11056 Engenharia de Computação Quarto Ano-->
+
+<curriculum_vitae nome='Victor' sobrenome='Bramigk' idade='21'>
+  <educacao lable="Educação">
+    <medio lable="Médio">
+      <instituicao nome="SESI 416"></instituicao>
+    </medio>
+
+    <superior lable="Superior">
+      <instituicao nome="Instituto Militar de Engenharia">
+        <curso nome="Engenharia de Computação"></curso>
+      </instituicao>
+    </superior>
+  </educacao>
+
+  <cursos_ad lable="Cursos Adicionais">
+    <tecnicos lable="Cursos Técnicos">
+      <instituicao nome="WorkGraphic">
+         <curso nome="CAD com PowerShape"></curso>
+	 <curso nome="CAM com PowerMill"></curso>
+      </instituicao>
+
+      <instituicao nome="28 de Julho">
+	<curso nome="Desenho técnico mecânico"></curso>
+	<curso nome="Projeto de Moldes"></curso>
+	<curso nome="Projeto de Ferramentas"></curso>
+      </instituicao>
+      <instituicao nome="SENAI Conde José Vicente de Azevedo">
+        <curso nome="Mecânica Automobilística"></curso>
+      </instituicao>
+    </tecnicos>
+  </cursos_ad>
+
+  <titulos lable="Títulos e condecorações">
+    <medalha olimpiada="Olimpíada Brasileira de Astronomia" material="prata"></medalha>
+  </titulos>
+
+  <publicações>
+    <artigo nome="Analise da influência da solda na microestrutura do aço"></artigo>
+  </publicações>
+</curriculum_vitae>

@@ -1,0 +1,247 @@
+<!-- Trabalho BD2 -->
+<!-- Grupo -->
+<!-- Felipe Ferraz-->
+<!-- Rafael Chaves-->
+<!-- Raffael Russo-->
+
+<CurriculumVitae>
+	<header>
+		<name>
+			<firstname> Raffael </firstname>
+			<surname> Russo </surname>
+		</name>
+		<address>
+			<building> Chateau Do'r </building>
+			<street> 
+				<name> Rua Paula Freitas </name>
+				<number>95</number>
+			</street>
+			<neighborhood> Copacabana </neighborhood>
+			<municipalty> Rio de Janeiro </municipalty>
+			<state> RJ </state>
+		</address>
+		<contact>
+			<email> raffaelrusso@gmail.com </email>
+			<phone> (21)988766615 </phone>
+		</contact>
+	</header>
+
+	<objective> Estagio </objective>
+	<education>
+		<undergrad id="0">
+			<course> Engenharia de Computacao </course>
+			<name> Instituto Militar de Engenharia </name>
+			<conclusion> 
+				<date> 
+					<month> dez </month>
+					<year> 2016 </year>
+				</date>
+			</conclusion>
+			<GPAscore> 7.6 </GPAscore>
+		</undergrad>
+
+	</education>
+	
+	<WorkExperience>
+		<work id="0" >
+			<label> Estagiario </label>
+			<employer> 
+				<name> BBM Investimentos </name>
+				<address>
+					<building> </building>
+					<street> 
+						<name> Praca Pio X </name>
+						<number> 98 </number>
+					</street>
+					<neighborhood> Centro </neighborhood>
+					<municipalty> Rio de Janeiro </municipalty>
+					<state> RJ </state>
+				</address>
+			</employer>
+			<from>
+				<date>
+					<month> dez </month>
+					<year> 2014 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> jun </month>
+					<year> 2015 </year>
+				</date>
+			</to>
+			<area>
+				Controle de credito
+			</area>
+			<duties>
+				<duty id="0">
+					<description>
+						Utilizaçao de VBA para automatização de rotinas.
+					</description>
+					<results>
+						Mapeamento da carteira de credito do banco
+					</results>
+				</duty>
+				<duty id="1">
+					<description>
+						Geração de relatórios para o Banco central.
+					</description>
+					<results>
+						Envio de um consolidado das operações feitas pelo Banco no setor de cessão de crédito.
+					</results>
+				</duty>
+			</duties>
+		</work>
+
+	</WorkExperience>
+
+
+
+	<research>
+		<project id="0">
+			<title> Projeto de desenvolvimento de Software </title>
+			<from>
+				<date>
+					<month> jun </month>
+					<year> 2013 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> jan </month>
+					<year> 2014 </year>
+				</date>
+			</to>
+			<brief> Projeto de acoplar uma câmera a uma arma para que o usuário pudesse ter uma visão ampliada do campo de batalha e pudesse detectar e reonhecer faces.		</brief>
+			<sponsorship>
+				<name> CNPq </name>
+			</sponsorship>
+		</project>
+	</research>
+	
+	<awards>
+		<honor id="0">
+			<description>
+			</description>
+		</honor>
+	</awards>
+
+	<courses>
+		<course id="0">
+			<name> Excel Avancado aplicado a Bolsa de Valores </name>
+			<company> 
+				<name> IEG </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> set </month>
+						<year> 2014 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> nov </month>
+						<year> 2014 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Principais Recursos do Excel </name>
+				</topic>
+				<topic id="1">
+					<name> Teoria Moderna do Portfolio </name>
+				</topic>
+				<topic id="2">
+					<name> Indicadores Técnicos </name>
+				</topic>
+				<topic id="3">
+					<name> Sistemas de Negociacao </name>
+				</topic>
+			</topics>
+		</course>
+
+		<course id="1">
+			<name> Curso de Ingles </name>
+			<company> 
+				<name> Brasas </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> fev </month>
+						<year> 2008 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2012 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Gramatica </name>
+				</topic>
+				<topic id="1">
+					<name> Vocabulario </name>
+				</topic>
+				<topic id="2">
+					<name> Conversacao </name>
+				</topic>
+				<topic id="3">
+					<name> Escrita </name>
+				</topic>
+			</topics>
+		</course>
+	</courses>
+
+	<ComplementaryActivities>
+		<activity id="0">
+			<name> Ação Social Colégio Cruzeiro </name>
+			<label> Cuidador de crianças </label>
+			<area> Voluntario </area>
+			<period>
+				<from>
+					<date>
+						<month> jan </month>
+						<year> 2007 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2007 </year>
+					</date>
+				</to>
+			</period>
+			<duties>
+				<duty id="0">
+					<description>
+						Coordenar projetos de recreação para crianças de uma creche.
+					</description>
+					<results>
+						Foi feito um teatro e foram obtidas doações de brinquedos para as crianças.
+					</results>
+			</duties>
+		</activity>
+	</ComplementaryActivities>
+
+	<PersonalSkills>
+		<skill id="0" name="Linguagens de Programacao">
+			<name id="0"> C++ </name>
+			<name id="1"> Java </name>
+			<name id="2"> C </name>
+			<name id="3"> SQL </name>
+			<name id="4"> VBA </name>
+			<name id="5"> R </name>
+		</skill>
+		<skill id="1" name = "Linguas">
+			<name id="0"> Ingles </name>
+			<name id="0"> Alemão </name>
+		</skill>
+	</PersonalSkills>
+
+</CurriculumVitae>

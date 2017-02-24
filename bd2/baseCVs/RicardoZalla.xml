@@ -1,0 +1,50 @@
+<!-- Aluno Ricardo Solon Zalla 	
+	grupo:Leal, Zalla
+-->
+<curriculum >
+	<cabecalho>
+		<dados-pessoais>
+			<nome>Ricardo Solon Zalla</nome>
+			<nacinalidade>Brasileiro</nacinalidade>
+  			<estado-civil>Solteiro</estado-civil>
+  			<idade>22</idade>
+		</dados-pessoais>
+		<contato>
+			<endereco>
+				<logradouro>Avenida Praia de Botafogo</logradouro>
+				<bairro>Botafogo</bairro>
+				<cidade>Rio de Janeiro</cidade>
+				<UF>RJ</UF>
+			</endereco>
+			<telefone tipo="celular" id="tel1">(21)99790-3620</telefone>
+			<telefone tipo="fixo" id="tel2">(67)3351-5694</telefone>
+ 			<e-mail> zallaricardo@gmail.com</e-mail>
+		</contato>
+	</cabecalho>
+	<objetivo cargo="estagiario">Estágio na área de consultoria em computação</objetivo>
+	<formacao>
+		<formacao-item tipo="Graduação">
+			<curso>Engenharia de Computação</curso>
+			<instituicao>Instituto Militar de Engenharia</instituicao>
+			<conclusao>2016</conclusao>
+		</formacao-item>
+	</formacao>
+	<exp-prof>
+		<exp-prof-item inicio="2013" fim="2013">
+			<instituicao  contato="">21212 Digital Accelerator</instituicao>
+			<cargo>Estagiário</cargo>
+			<atividade>
+				<atividade-item>	
+				Análise de startups digitais com alto potencial de escalabilidade
+				</atividade-item>
+			</atividade>
+		</exp-prof-item>
+	</exp-prof>
+	<qualificacao>
+		<qualificacao-item tipo="ligua">
+				Inglês-Intermediário(Kaplan International College)-2 meses, Conclusão 2012
+		</qualificacao-item>
+ 	</qualificacao>
+	<info-adicional>
+	</info-adicional>/
+</curriculum>

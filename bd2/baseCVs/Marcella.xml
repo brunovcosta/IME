@@ -1,0 +1,115 @@
+<?xml version="1.0"?> 
+<!-- Trabalho de Banco de Dados II - Aluna Marcella Mercês-->
+<cv> 
+	<name>Marcella Guarnieri Mercês</name>
+	<dados_pessoais>
+		<nacionalidade>Brasileira</nacionalidade>
+		<idade>22 anos</idade>
+		<endereco>
+			<logradouro tipo = "praça">General Tibúrcio</logradouro>
+			<numero>80</numero>
+			<CEP>22290-270</CEP>
+			<bairro>Urca</bairro>
+			<cidade>Rio de Janeiro</cidade>
+			<UF>RJ</UF>
+		</endereco>
+		<contato>
+			<tel codArea = "21" tipo = "cel">98361-5812</tel>
+			<email>marcellagmerces@gmail.com</email>
+		</contato>
+	</dados_pessoais>
+	
+	<objetivo>
+		<vaga>estágio</vaga>
+		<empresa>Google</empresa>
+		<contribuicao>Determinação</contribuicao>
+		<contribuicao>Dedicação</contribuicao>
+		<contribuicao>Organização</contribuicao>
+	</objetivo>
+	
+	<formacao>
+		<graduacao>
+			<conclusao>2015</conclusao>
+			<instituicao sigla = "IME">Instituto Militar de Engenharia</instituicao>
+			<curso>Engenharia de Computação</curso>
+		</graduacao>
+		<mestrado></mestrado>
+		<doutorado></doutorado>
+	</formacao>
+	
+	<cursos>
+		<idioma nivel = "fluente">Inglês</idioma>
+		<idioma nivel = "básico">Francês</idioma>
+		<idioma nivel = "básico">Espanhol</idioma>
+		<linguagemProg>Java</linguagemProg>
+		<linguagemProg>C++</linguagemProg>
+		<linguagemProg>C</linguagemProg>
+	</cursos>
+	
+	<historico>
+		<projPesquisa tipo = "IP">
+			<periodo duracao = "14 meses">
+				<inicio>Maio 2013</inicio>
+				<fim>Julho 2014</fim>
+			</periodo>
+			<assunto area = "robotica">
+			Projeto de robô autônomo para realizar tarefas de pick-and-place
+			</assunto>
+			<resultados></resultados>
+		</projPesquisa>
+		
+		<projPesquisa tipo = "iniciação científica">
+			<periodo duracao = "12 meses">
+				<inicio>Agosto 2012</inicio>
+				<fim>Julho 2013</fim>
+			</periodo>
+			<assunto area = "blindagem, nanoparticulas">
+			Pesquisa sobre aplicação de nanopartículas em blindagem
+			</assunto>
+			<resultados>Relatório</resultados>
+		</projPesquisa>
+		
+		<projPesquisa tipo = "iniciação científica">
+			<periodo duracao = "12 meses">
+				<inicio>Agosto 2011</inicio>
+				<fim>Julho 2012</fim>
+			</periodo>
+			<assunto area = "quimica computacional">
+			Estudo de estrutura eletrônica e propriedades óticas de catalisadores
+			</assunto>
+			<resultados>Relatório</resultados>
+		</projPesquisa>
+		
+		<trabalho>
+			<periodo duracao = "5 anos">
+				<inicio>Janeiro 2011</inicio>
+				<fim>Dezembro 2015</fim>
+			</periodo>
+				<atuacao>
+				Formação militar no Instituto Militar de Engenharia
+				</atuacao>
+				<resultados>
+				Desenvolvimento de competência nas áreas de liderança, disciplina, trabalho sobre pressão e gerenciamento de pessoal
+				</resultados>
+		</trabalho>
+	</historico>
+	
+	<extras>
+		<premio>
+			<competicao>Olimpíada Brasileira de Matemática das Escolas Públicas</competicao>
+			<data>2009</data>
+			<premiacao>Medalha de prata</premiacao>
+		</premio>
+		<premio>
+			<competicao>Olimpíada Brasileira de Astronomia</competicao>
+			<data>2006</data>
+			<premiacao>Medalha de prata</premiacao>
+		</premio>
+		<trabalhoVoluntario>
+			<local>Jornada Mundial da Juventude</local>
+			<data>Julho 2013</data>
+			<funcao>Guia em igrejas históricas do Rio de Janeiro</funcao>
+		</trabalhoVoluntario>
+	</extras>
+	
+</cv>

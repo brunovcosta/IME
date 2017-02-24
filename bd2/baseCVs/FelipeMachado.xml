@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Autor: Felipe Lins Costa Alemida Castro Machado - 4 ano COMP nr - 11409-->
+<curriculo>
+    <dados_pessoais>
+        <nome>Felipe Lins Costa Almeida Castro Machado</nome>
+        <nr_identidade orgao_emissor="DETRAN-RJ">238016432</nr_identidade>
+        <CPF>01065825166</CPF>
+    </dados_pessoais>
+    <dados_de_contato>
+        <endereco>Rua lauro Muller</endereco>
+        <numero>86</numero>
+        <apto>1008</apto>
+        <bairro>Botafogo</bairro>
+        <cidade>Rio de Janeiro</cidade>
+        <estado>RJ</estado>
+        <cep>22290360</cep>
+        <telefones>
+            <celular operadora="21"> 988799760</celular>
+            <residencial operadora="21">26120206</residencial>
+            <trabalho operadora="12" ramal="30">26335695</trabalho>
+        </telefones>
+        <email>felipelm@gmail.com</email>        
+    </dados_de_contato>
+    <formacao_academica>
+        <Graduacao status="incompleto">
+            <instituicao>Instituto Militar de Engenharia</instituicao>
+            <curso>Computação</curso>
+            <matricula>11409</matricula>
+        </Graduacao>
+    </formacao_academica>
+    <experiencia_profissional>
+        <estagio tipo="remunerado">
+            <empresa>Slacam</empresa>
+            <periodo>2012-2013</periodo>
+            <area>Tecnologia da Informação</area>
+        </estagio>
+        <estagio tipo="não remunerado">
+            <empresa>Fundação Trompowsky</empresa>
+            <periodo>2012-2013</periodo>
+            <area>Tecnologia da Informação</area>
+        </estagio>
+    </experiencia_profissional>
+</curriculo>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root tipo="proposito geral">
+    <informacaopessoal>
+        <nome> Luan Ferreira Cardoso</nome>
+        <endereco>
+            <rua> rua Goes Monteiro </rua> 
+            <numero> 08 </numero>
+            <cidade>Rio de Janeiro </cidade>
+            <estado>Rio de Janeiro </estado>
+            <localreferencia tipo="Ponto Turistico">
+                <local> Pao de Acucar </local>
+            </localreferencia>
+        </endereco>
+        <telefone tipo="celular">21 995353369 </telefone>
+        <contato>
+            <linkedin> http://www.linkedin.com/pub/luan-ferreira-cardoso/89/83a/1b3</linkedin>
+            <skype> luan.f.cardoso </skype>            
+        </contato>
+    </informacaopessoal>
+    
+    <experienciaprofissional>
+        <empresa> Mahle Metal Leve Miba Sinterizadso </empresa>
+        <periodo> 10/2005 até 04/2006 </periodo>
+        <descricao> Ferramentaria: trabalho com torno mecânico, fresadora e retífica para confecção de eixos automotivos e matrizes para confecção de peças sinterizadas</descricao>        
+    </experienciaprofissional>
+    
+    <experienciaprofissional>
+        <empresa> AIESEC </empresa>
+        <periodo> 01/2014 até 06/2014 </periodo>
+        <descricao> Seleção dos candidatos, assinatura do contrato e acompanhamento do intercambista no país de destino. </descricao>        
+    </experienciaprofissional>
+    
+    <formacao nivel="Superior">
+        <instituicao> Instituto Militar de Engenharia </instituicao>
+        <curso> Engenharia de Computação </curso>
+        <inicio> 2012 </inicio>
+        <conclusao> 2016 </conclusao>
+        <topicos> Estrutura de dados
+                  Analise e projeto de Sistemas
+                  Analise e projeto de algoritmos
+                  Banco de dados
+                  Aplicações Web </topicos>
+    </formacao>
+    
+    <formacao nivel="Medio">
+        <instituicao> Colégio Técnico da Unicamp </instituicao>
+        <curso> Técnico em Eletroeletrônica </curso>
+        <inicio> 2007 </inicio>
+        <conclusao> 2009 </conclusao>        
+        <topicos>
+            Eletrônica Digital Básica
+            Eletrônica Analógica Básica
+            Elétrica Básica
+            Máquinas Elétricas
+        </topicos>
+    </formacao>
+    
+    <formacao nivel="medio">
+        <instituicao> SENAI </instituicao>
+        <curso> Mecânica de Usinagem em Máquinas Convencionais </curso>
+        <inicio> 2005 </inicio>
+        <conclusao> 2005 </conclusao>        
+        <topicos>
+            Máquinas convencionais (Torno Mecânico, fresadora e retífica)
+            Elétrica Básica
+        </topicos>
+    </formacao>
+    
+    <Competencias>
+        <linguas>
+            <lingua> Ingles </lingua>
+            <compreender> Ótimo </compreender>
+            <falar> bem </falar>
+            <escrever> bem </escrever>
+        </linguas>
+    </Competencias>
+    
+    <premiacoes>
+        <descricao> Menção Honrosa OBMEP </descricao>
+        <ano> 2008 </ano>
+    </premiacoes>
+    
+    <premiacoes>
+        <descricao> Medalha Prata OBMEP </descricao>
+        <ano> 2009 </ano>
+    </premiacoes>
+    
+    <premiacoes>
+        <descricao> 5º colocado Olimpíada de Física da Unicamp </descricao>
+        <ano> 2009 </ano>
+    </premiacoes>
+
+    <!--> Luan Ferreira Cardoso
+          Lucas Meireles
+          Lucas Cortez <-->
+</root>
+

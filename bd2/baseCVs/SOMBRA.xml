@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<Curriculo>
+<Informacoes_pessoais><Nome>Antonio Luis Sombra de Medeiros</Nome>
+	<contato>
+		<telefone>021982623733</telefone>
+		<email>aluis.852@gmail.com</email>
+	</contato>
+
+</Informacoes_pessoais>
+
+<Experiencias>
+	<experiencia_de_trabalho>
+		<periodo>
+			<de>
+				<ano>2011</ano>
+				<mes>02</mes>
+			</de>
+			<ate>
+				<ano>2013</ano>
+				<mes>07</mes>
+			</ate>
+		</periodo>
+		<posicao>Monitor de Fisica e Matematica para pre-vestibular</posicao>
+		<empresa>Curso Pensi - Ipanema</empresa>
+	</experiencia_de_trabalho>
+</Experiencias>
+
+<Formacao>
+	<Ensino_Superior>
+		<periodo>
+			<de>
+				<ano>2010</ano>
+			</de>
+			<ate>
+				<ano>2015</ano>
+			</ate>
+		</periodo>
+	</Ensino_Superior>
+</Formacao>
+
+<Linguas>
+		<name>Ingles</name>
+			<nivel>
+				<entende>bem</entende>
+				<fala>bem</fala>
+				<escreve>bem</escreve>
+				<le>bem</le>
+			</nivel>
+		<name>Frances</name>
+			<nivel>
+				<entende>pouco</entende>
+				<fala>pouco</fala>
+				<escreve>pouco</escreve>
+				<le>bem</le>
+			</nivel>
+	
+		
+</Linguas>
+</Curriculo>

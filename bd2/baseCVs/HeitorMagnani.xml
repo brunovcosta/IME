@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GRUPO
+     12016 Matos
+     12032 Mendes
+     12040 Paiva
+-->
+<CurriculumVitae versao="27/04/2015">
+	<Pessoa>
+		<PrimeiroNome>Heitor</PrimeiroNome>
+		<SobreNome>Matos Magnani</SobreNome>
+		<EstadoCivil>Solteiro	</EstadoCivil>
+		<Idade>25</Idade>
+	</Pessoa>
+	<Contato>
+		<Endereco tipo="Pessoal">
+			<Logradouro tipo="Praca">General Tiburcio</Logradouro>
+			<Numero>80</Numero>
+			<Bairro>
+				Urca
+			</Bairro>
+			<Cidade>
+				<Nome>
+					Rio de Janeiro
+				</Nome>
+				<Estado>
+					Rio de Janeiro
+				</Estado>
+			</Cidade>
+		</Endereco>
+		<Telefone tipo="Celular">
+		+55 21 981438351
+		</Telefone>
+		<Email>
+			heitor_magnani@hotmail.com
+		</Email>
+		<Site>
+			https://github.com/MatMats777
+		</Site>
+	</Contato>
+	<Objetivo>
+		Utilizacao dos conhecimentos em aprendizado de maquina para a area de analise de dados.
+	</Objetivo>
+	<Formacao>
+		<Curso>
+			<Nome>
+				Graduacao em Engenharia da Computacao
+			</Nome>
+			<Instituicao>
+				Instituto Militar de Engenharia
+			</Instituicao>
+			<Perido>
+				<Inicio>
+					Fev/2012
+				</Inicio>
+				<Final>
+					Dez/2016
+				</Final>
+			</Perido>
+		</Curso>
+	</Formacao>
+	<Experiencia>
+		<Empresa>
+			<Nome>
+				Sistema Ph de Ensino
+			</Nome>
+			<Cargo>
+				Monitor I
+			</Cargo>
+			<Perido>
+				<Inicio>
+					Abr/2013
+				</Inicio>
+				<Final>
+					Dez/2013
+				</Final>
+				<Atividade>
+					Auxiliar e ministrar conteudo de fisica, matematica e quimica a alunos da turma pre-militar IME-ITA em horarios flexiveis. 
+				</Atividade>
+			</Perido>
+		</Empresa>
+	</Experiencia>
+<Qualificacoes>
+			<Idioma>
+				<Nome>
+					Ingles
+				</Nome>
+				<Nivel>
+					Avancado
+				</Nivel>
+			</Idioma>
+			<Certificado>
+				<Nome>
+					TOEFL iBT
+				</Nome>
+				<Data>
+					11/07/2014
+				</Data>
+				<Nota>
+					110/120
+				</Nota>
+			</Certificado>
+			<Habilidade>
+				<Nome>
+					Progamador C++
+				</Nome>
+				<Nivel>
+					Avancado
+				</Nivel>
+			</Habilidade>
+			<Habilidade>
+				<Nome>
+					Progamador Java
+				</Nome>
+				<Nivel>
+					Avancado
+				</Nivel>
+			</Habilidade>
+			
+			<Habilidade>
+				<Nome>
+					Progamador C
+				</Nome>
+				<Nivel>
+					Avancado
+				</Nivel>
+			</Habilidade>
+			<Habilidade>
+				<Nome>
+					SQL
+				</Nome>
+				<Nivel>
+					Intermediario
+				</Nivel>
+			</Habilidade>
+		</Qualificacoes>
+</CurriculumVitae>

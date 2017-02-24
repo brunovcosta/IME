@@ -1,0 +1,29 @@
+<!-- Tarefa (1) Banco de Dados -->
+<!-- Edward Céspedes Carageorge -->
+
+<?xml version="1.0"?>
+
+<CV>
+	<dadosPessoais cpf="000.000.000-00">
+		<nome completo="V"> Edward Céspedes Carageorge </nome>
+		<endereco> 
+			<logradouro tipo="rua"> Sem Nome </logradouro>
+			<numero> 123 </numero>
+			<bairro zona="oeste"> Campo Grande </bairro>
+			<cidade> Rio de Janeiro </cidade>
+			<cep> 23456789 </cep>
+		</endereco>
+		<telefone>
+			<fixo> 33339999 </fixo>
+			<celular operadora="tim"> 999991234 </celular>
+		</telefone>
+		<email> edward@email.com.br </email>
+	</dadosPessoais>
+	
+	<objetivo> Esudar muito </objetivo>
+	<formacao> IME </formacao>
+	<experiencia> Nenhuma </experiencia>
+	<qualificacao id="1"> Curso 1 </qualificacao>
+	<qualificacao id="2"> Curso 2 </qualificacao>
+	<qualificacao id="3"> Conhecimento de xml </qualificacao>
+</CV>

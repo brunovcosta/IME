@@ -1,0 +1,76 @@
+<!-- Bianca, Maciel e Rocha --> 
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo>
+   <InformacaoPessoal>
+      <NomeCompleto lang="pt">Bianca de Carvalho Lodoli</NomeCompleto>
+      <Nacionalidade lang="pt">Brasileira</Nacionalidade>
+      <EstadoCivil lang="pt">Solteira</EstadoCivil>
+	  <Idade lang="pt">22</Idade>
+	  <Endereco>
+			<Logradouro lang="pt">Rua Bartolomeu Portela</Logradouro>
+			<Numero lang="pt">18</Numero>
+			<Complemento>bl 1 apto 303</Complemento>
+			<Bairro lang="pt">Botafogo</Bairro>
+			<Cidade lang="pt">Rio de Janeiro</Cidade>
+			<UF lang="pt">RJ</UF>
+	  </Endereco>
+	  <Contatos>
+         <Telefone lang="pt">(21)97294-5172</Telefone>
+         <Email lang="pt">blodoli@icloud.com</Email>
+		 <Skype lang="pt">bianca.lodoli2410</Skype>
+      </Contatos>
+   </InformacaoPessoal>
+   <Formacao>
+		<Graduacao id="1">
+			<Nome lang="pt">Instituto Militar de Engenharia</Nome>
+			<Curso lang="pt">Engenharia de Computação</Curso>
+			<Situacao lang="pt">7º periodo</Situacao>
+			<Periodo>
+				<inicio>fevereiro/2012</inicio>
+				<termino>dezembro/2016 (previsão)</termino>
+			</Periodo>
+		</Graduacao>
+		<Pos-Graduacao id="1">
+			<Nome lang="pt">Fundação Getúlio Vargas</Nome>
+			<Curso lang="pt">Mestrado em Modelagem Matematica</Curso>
+			<Periodo>
+				<inicio>2014</inicio>
+			</Periodo>
+		</Pos-Graduacao>
+   </Formacao>
+   <ExperienciaProfissional>
+		<Empresa id="1">
+			<Nome lang="pt">Target Solutions</Nome>
+			<Cargo lang="pt">Estagiário</Cargo>
+			<Atividades lang="pt">Parte da equipe de desenvolvimento de site e aplicativo multiplataforma web (iPhone, Androide e Windows Phone) para gerenciamento inteligente de filas. Site em php usando o framework Yii e aplicativo web usando AngularJS, Bootstrap e Cordova.</Atividades>
+			<Periodo>
+				<inicio>outubro/2014</inicio>
+				<termino>março/2015</termino>
+			</Periodo>
+		</Empresa>
+   </ExperienciaProfissional>
+   <Qualificacoes>
+		<IniciacaoCientifica lang="pt" id="1">
+			<Atividades>Desenvolimento de interface gráfica para desenho CSG para iPhone.</Atividades>
+			<Periodo>
+				<inicio>fevereiro/2013</inicio>
+				<termino>agosto/2013</termino>
+			</Periodo>
+		</IniciacaoCientifica>
+		<IniciacaoCientifica lang="pt" id="2">
+			<Atividades>Estudo de parâmetros espectrais em grafos aleatórios.</Atividades>
+			<Periodo>
+				<inicio>agosto/2014</inicio>
+			</Periodo>
+		</IniciacaoCientifica>
+		<Idiomas>
+			<idioma id="1">
+				<nome>Inglês</nome>	
+				<Leitura>Avançado</Leitura>
+				<Escrita>Avançado</Escrita>
+				<Fala>Avançado</Fala>
+				<Compreensao>Avançado</Compreensao>		
+			</idioma>
+		</Idiomas>
+   </Qualificacoes>
+</curriculo>

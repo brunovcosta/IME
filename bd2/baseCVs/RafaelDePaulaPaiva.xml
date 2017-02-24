@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GRUPO:
+	12016 - Matos
+	12032 - Mendes
+	12040 - Paiva
+-->
+<CurriculumVitae versao="27/04/2015">
+	<Pessoa>
+		<PrimeiroNome>Rafael</PrimeiroNome>
+		<SobreNome>de Paula Paiva</SobreNome>
+		<EstadoCivil>Solteiro</EstadoCivil>
+		<Idade>23</Idade>
+	</Pessoa>
+	<Contato>
+		<Endereco tipo="Pessoal">
+			<Logradouro tipo="Praca">General Tibúrcio</Logradouro>
+			<Numero>80</Numero>
+			<Bairro>Urca</Bairro>
+			<Cidade>
+				<Nome>Rio de Janeiro</Nome>
+				<Estado>Rio de Janeiro</Estado>
+			</Cidade>
+		</Endereco>
+		<Telefone tipo="Celular">+55 21 998839697</Telefone>
+		<Email>08.paiva@gmail.com</Email>
+		<Site>https://github.com/paivao</Site>
+	</Contato>
+	<Objetivo>
+		Utilização dos conhecimentos em aprendizado de máquina para a área de análise de dados.
+	</Objetivo>
+	<Formacao>
+		<Curso>
+			<Nome>Graduação em Engenharia da Computação</Nome>
+			<Instituicao>Instituto Militar de Engenharia</Instituicao>
+			<Perido>
+				<Inicio>Fev/2012</Inicio>
+				<Final>Dez/2016</Final>
+			</Perido>
+		</Curso>
+	</Formacao>
+	<Experiencia>
+	</Experiencia>
+	<Qualificacoes>
+		<Idioma>
+			<Nome>Inglês</Nome>
+			<Nivel>Avançado</Nivel>
+		</Idioma>
+		<Idioma>
+			<Nome>Francês</Nome>
+			<Nivel>Principiante</Nivel>
+		</Idioma>
+		<Certificado>
+			<Nome>TOEFL iBT</Nome>
+			<Data>11/07/2014</Data>
+			<Nota>92/120</Nota>
+		</Certificado>
+		<Habilidade>
+			<Nome>Progamador C++</Nome>
+			<Nivel>Avançado</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>Progamador Java</Nome>
+			<Nivel>Avançado</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>Progamador Python</Nome>
+			<Nivel>Principiante</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>Progamador C</Nome>
+			<Nivel>Avançado</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>SQL</Nome>
+			<Nivel>Intermediário</Nivel>
+		</Habilidade>
+	</Qualificacoes>
+</CurriculumVitae>

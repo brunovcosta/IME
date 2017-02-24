@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<curriculo>
+	<nome>Luis Helder Lima Barbosa</nome>
+	<objetivo>Estágio na área de desenvolvimento de software</objetivo>
+	<experiencia mes-inicial="fevereiro" ano-inicial="2011" mes-final="maio" ano-final="2011">
+		<empresa>
+			<nome-empresa>Solar Meninos de Luz</nome-empresa>
+			<rua>Rua Saint Roman</rua>
+			<cep>22071060</cep>
+			<cidade>Rio de Janeiro</cidade>
+		</empresa>
+		<cargo nome="Monitoria em Física e Matemática">
+		</cargo>
+	</experiencia>
+	<experiencia mes-inicial="maio" ano-inicial="2013" mes-final="atual" ano-final="atual">
+		<empresa>
+			<nome-empresa>Vialink</nome-empresa>
+			<rua>Rua Dr Aníbal Moreira</rua>
+			<cep>20510110</cep>
+			<cidade>Rio de Janeiro</cidade>
+		</empresa>
+		<cargo nome="Desenvolvedor Web"></cargo>
+	</experiencia>
+	<formacao>
+		<faculdade nome="Instituto Militar de Engenharia" curso="Engenharia de Computação" ano-inicial="2010" ano-final="2015">
+		</faculdade>
+	</formacao>
+</curriculo>

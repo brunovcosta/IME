@@ -1,0 +1,324 @@
+<!-- Trabalho BD2 -->
+<!-- Grupo -->
+<!-- Felipe Ferraz-->
+<!-- Rafael Chaves-->
+<!-- Raffael Russo-->
+
+<CurriculumVitae>
+	<header>
+		<name>
+			<firstname> Felipe </firstname>
+			<surname> Ferraz </surname>
+		</name>
+		<address>
+			<building> Renoir </building>
+			<street> 
+				<name> Rua dos Carijos </name>
+				<number>35</number>
+			</street>
+			<neighborhood> Meier </neighborhood>
+			<municipalty> Rio de Janeiro </municipalty>
+			<state> RJ </state>
+		</address>
+		<contact>
+			<email> ferrazcmrj@gmail.com </email>
+			<phone> (21)964022592 </phone>
+		</contact>
+	</header>
+
+	<objective> Estagio </objective>
+	<education>
+		<undergrad id="0">
+			<course> Engenharia de Computacao </course>
+			<name> Instituto Militar de Engenharia </name>
+			<conclusion> 
+				<date> 
+					<month> dez </month>
+					<year> 2016 </year>
+				</date>
+			</conclusion>
+			<GPAscore> 7.5 </GPAscore>
+		</undergrad>
+
+	</education>
+	
+	<WorkExperience>
+		<work id="0" >
+			<label> Monitor Senior </label>
+			<employer> 
+				<name> Sistema de Ensino PH </name>
+				<address>
+					<building> PH </building>
+					<street> 
+						<name> Rua Professor Gabizo </name>
+						<number> 211 </number>
+					</street>
+					<neighborhood> Maracanã </neighborhood>
+					<municipalty> Rio de Janeiro </municipalty>
+					<state> RJ </state>
+				</address>
+			</employer>
+			<from>
+				<date>
+					<month> abr </month>
+					<year> 2013 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> jul </month>
+					<year> 2014 </year>
+				</date>
+			</to>
+			<area>
+				Matemática, física e química
+			</area>
+			<duties>
+				<duty id="0">
+					<description>
+						Auxiliava alunos do preparatório IME-ITA
+					</description>
+					<results>
+						Aumento em 16% no numero de apovados para o concurso do IME
+					</results>
+				</duty>
+			</duties>
+		</work>
+
+
+		<work id="1" >
+			<label> Estagiario </label>
+			<employer> 
+				<name> BTG Pactual </name>
+				<address>
+					<building> Centro Empresarial Mourisco </building>
+					<street> 
+						<name> Praia de Botafogo </name>
+						<number> 501 </number>
+					</street>
+					<neighborhood> Botafogo </neighborhood>
+					<municipalty> Rio de Janeiro </municipalty>
+					<state> RJ </state>
+				</address>
+			</employer>
+			<from>
+				<date>
+					<month> jan </month>
+					<year> 2015 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> jul </month>
+					<year> 2015 </year>
+				</date>
+			</to>
+			<area>
+				Asset Management IT
+			</area>
+			<duties>
+				<duty id="0">
+					<description>
+						Automatização do envio de relatórios Offshore por gestor
+					</description>
+					<results>
+						O sistema segmenta os fundos Offshore por gestor e envia um e-mail para cada um.
+					</results>
+				</duty>
+				<duty id="1">
+					<description>
+						Manual de usuário
+					</description>
+					<results>
+						Um manual no formato wiki para o usuário do sistema de fundos Onshore, reduzindo o número de chamados sobre a utilização do sistema.
+					</results>
+				</duty>
+			</duties>
+		</work>
+
+	</WorkExperience>
+
+	<research>
+		<project id="0">
+		</project>
+	</research>
+	
+	<awards>
+		<honor id="0">
+			<description>
+			</description>
+		</honor>
+	</awards>
+
+	<courses>
+		<course id="0">
+			<name> Excel Avancado aplicado a Bolsa de Valores </name>
+			<company> 
+				<name> IEG </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> set </month>
+						<year> 2014 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> nov </month>
+						<year> 2014 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Principais Recursos do Excel </name>
+				</topic>
+				<topic id="1">
+					<name> Teoria Moderna do Portfolio </name>
+				</topic>
+				<topic id="2">
+					<name> Indicadores Técnicos </name>
+				</topic>
+				<topic id="3">
+					<name> Sistemas de Negociacao </name>
+				</topic>
+			</topics>
+		</course>
+		<course id="1">
+			<name> Aprenda a investir na Bolsa de Valores </name>
+			<company> 
+				<name> XP Investimentos </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> set </month>
+						<year> 2012 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> set </month>
+						<year> 2012 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Mercado Futuro </name>
+				</topic>
+				<topic id="1">
+					<name> Homebroker </name>
+				</topic>
+			</topics>
+		</course>
+		<course id="2">
+			<name> Como investir na Bolsa </name>
+			<company> 
+				<name> BMF&Bovespa </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> dez </month>
+						<year> 2013 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2013 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Aluguel de ações </name>
+				</topic>
+				<topic id="1">
+					<name> Venda a descoberto </name>
+				</topic>
+			</topics>
+		</course>
+		<course id="3">
+			<name> Curso de Ingles </name>
+			<company> 
+				<name> IBEU </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> fev </month>
+						<year> 2005 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2008 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Gramatica </name>
+				</topic>
+				<topic id="1">
+					<name> Vocabulario </name>
+				</topic>
+				<topic id="2">
+					<name> Conversacao </name>
+				</topic>
+				<topic id="3">
+					<name> Escrita </name>
+				</topic>
+			</topics>
+		</course>
+	</courses>
+
+	<ComplementaryActivities>
+		<activity id="0">
+			<name> Integracao IME </name>
+			<label> Diretor de conteúdo </label>
+			<area> Voluntario </area>
+			<period>
+				<from>
+					<date>
+						<month> nov </month>
+						<year> 2013 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2015 </year>
+					</date>
+				</to>
+			</period>
+			<duties>
+				<duty id="0">
+					<description>
+						Buscar empresas para a realização de convênios com o IME e palestras. Com foco na Semana de Integração, em que todos os dias empresas e palestrantes magnos têm contato direto com os alunos e podem compartilhar suas experiências e processos seletivos.
+					</description>
+					<results>
+						Empresas e palestrantes ilustres compareceram ao envento. (Petrobras, Marcos Pontes, Google..)
+					</results>
+			</duties>
+		</activity>
+	</ComplementaryActivities>
+
+	<PersonalSkills>
+		<skill id="0" name="Linguagens de Programacao">
+			<name id="0"> C++ </name>
+			<name id="1"> Java </name>
+			<name id="2"> C </name>
+			<name id="3"> SQL </name>
+			<name id="3"> VB.NET </name>
+		</skill>
+		<skill id="1" name = "Linguas">
+			<name id="0"> Ingles </name>
+		</skill>
+	</PersonalSkills>
+
+</CurriculumVitae>

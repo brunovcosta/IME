@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<!--  Grupo: Mendes, Paiva e Matos -->
+<CurriculumVitae versao="27/04/2015">
+	<Pessoa>
+		<PrimeiroNome>
+			Lucas
+		</PrimeiroNome>
+		<SobreNome>
+			Mendes Santos Silva
+		</SobreNome>
+		<EstadoCivil>
+			Solteiro
+		</EstadoCivil>
+		<Idade>
+			21
+		</Idade>
+	</Pessoa>
+	<Contato>
+		<Endereco tipo="Pessoal">
+			<Logradouro tipo="Rua">
+				Rua da Bondade
+			</Logradouro>
+			<Numero>
+				275
+			</Numero>
+			<Bairro>
+				Curicica
+			</Bairro>
+			<Cidade>
+				<Nome>
+					Rio de Janeiro
+				</Nome>
+				<Estado>
+					Rio de Janeiro
+				</Estado>
+			</Cidade>
+		</Endereco>
+		<Telefone tipo="Celular">
+			+55 061 92807344
+		</Telefone>
+		<Email tipo="Pessoal">
+			lucasmends@yahoo.com.br
+		</Email>
+		<Site tipo="Github">
+			https://github.com/lucasmends
+		</Site>
+	</Contato>
+	<Objetivo>
+		Utilização dos conhecimentos em aprendizado de máquina para a área de análise de dados.
+	</Objetivo>
+	<Formacao>
+		<Curso>
+			<Nome>
+				Graduação em Engenharia da Computação
+			</Nome>
+			<Instituicao>
+				Instituto Militar de Engenharia
+			</Instituicao>
+			<Perido>
+				<Inicio>
+					Fev/2012
+				</Inicio>
+				<Final>
+					Dez/2016
+				</Final>
+			</Perido>
+		</Curso>
+	</Formacao>
+	<Experiencia>
+		<Empresa>
+			<Nome>
+				Supplt Midia
+			</Nome>
+			<Cargo>
+				Desenvolvedor Java
+			</Cargo>
+			<Perido>
+				<Inicio>
+					Jul/2013
+				</Inicio>
+				<Final>
+					Dez/2013
+				</Final>
+				<Atividade>
+					Participação na transferência de um software off-line de gestão e controle de pagamentos e custos para pequenas e médias empresas para um ambiente online utilizando a linguagem Java e banco de dados Firebird (Banco SQL). Responsável pela parte de pagamentos.
+				</Atividade>
+			</Perido>
+		</Empresa>
+	</Experiencia>
+	<Qualificacoes>
+		<Idioma>
+			<Nome>
+				Inglês
+			</Nome>
+			<Nivel>
+				Avançado
+			</Nivel>
+		</Idioma>
+		<Certificado>
+			<Nome>
+				TOEFL iBT
+			</Nome>
+			<Data>
+				11/07/2014
+			</Data>
+			<Nota>
+				99/120
+			</Nota>
+		</Certificado>
+		<Habilidade>
+			<Nome>
+				Progamador C++
+			</Nome>
+			<Nivel>
+				Avançado
+			</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>
+				Progamador Java
+			</Nome>
+			<Nivel>
+				Avançado
+			</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>
+				Progamador Python
+			</Nome>
+			<Nivel>
+				Avançado
+			</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>
+				Progamador C
+			</Nome>
+			<Nivel>
+				Avançado
+			</Nivel>
+		</Habilidade>
+		<Habilidade>
+			<Nome>
+				SQL
+			</Nome>
+			<Nivel>
+				Intermediário
+			</Nivel>
+		</Habilidade>
+	</Qualificacoes>
+</CurriculumVitae>

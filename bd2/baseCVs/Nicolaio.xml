@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--Ivo Nicolaio - 4º Ano Eng Comp-->
+<currículo>
+    <dados_pessoais>
+        <nome>Ivo Gabriel de Abreu Nicolaio</nome>
+        <identidade dataexpedição="17/02/2004">
+            <número_registro>2566889123</número_registro>
+            <órgão_emissor>SSP</órgão_emissor>
+            <estado>SP</estado>
+        </identidade>
+        <data_nascimento>17/09/1986</data_nascimento>
+        <CPF>78955236115</CPF>
+    </dados_pessoais>
+    <dados_contato>
+        <endereço tipo="comercial">
+            <logradouro>Praça General Tibúrcio,80</logradouro>
+            <bairro>Praia Vermelha</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <estado>RJ</estado>
+            <CEP>22290970</CEP>
+        </endereço>
+        <telefone>
+            <residencial>2121467614</residencial>
+            <celular operadora="TIM">21985612324</celular>
+            <trabalho ramal="7618">2125464100</trabalho>
+            <email>ivo@ime.eb.br</email>
+        </telefone>
+    </dados_contato>
+    <formação_acadêmica>
+        <graduação>
+            <curso situação="completo">Bacharelado em Ciências Militares</curso>
+            <instituição>Academia Militar das Agulhas Negras</instituição>
+            <ano_conclusão>2009</ano_conclusão>            
+        </graduação>
+        <graduação>
+            <curso situação="cursando">Engenharia de Computação</curso>
+            <instituição>Instituto Militar de Engenharia</instituição>
+            <ano_conclusão> - </ano_conclusão>
+        </graduação>
+        <formação_complementar>
+            <curso categoria="Idiomas">Espanhol</curso>
+            <instituição>Instituto Latino de Español - INLATES</instituição>
+            <carga_horária>400</carga_horária>
+        </formação_complementar>
+    </formação_acadêmica>
+    <experiência_profissional>
+        <cargo>
+            <função>Comandante de Pelotão</função>
+            <área>Logística de Transporte e Manutenção</área>
+            <empresa>1º Batalhão de Aviação do Exército</empresa>
+            <período>Fevereiro2010 - Novembro2011</período>
+        </cargo>
+    </experiência_profissional>
+</currículo>

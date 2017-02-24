@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<curriculo>
+	<cabecalho>
+		<infopessoal>
+			<nome>Marcos Valle</nome>
+			<dataNascimento>13/11/1991</dataNascimento>
+			<email>marcos.valle01@gmail.com</email>
+			<telefones>
+				<tel id="1" operadora="Oi" ddd="21">98881-3773</tel>
+				<tel id="2" operadora="Oi" ddd="21">2214-0253</tel>
+				<tel id="3" operadora="Nextel" ddd="21">96416-9866</tel>
+			</telefones>
+			<endereco>
+				<estado>RJ</estado>
+				<cidade>Rio de Janeiro</cidade>
+				<bairro>Andaraí</bairro>
+				<rua>Rua Ferreira Pontes</rua>
+				<numero>430</numero>
+				<complemento>apto 801, bloco 1</complemento>
+			</endereco>
+		</infopessoal>
+	</cabecalho>
+
+	<formacao>
+		<titulacao tipo="graduando">
+			<instituicao>Instituto Militar de Engenharia</instituicao>
+			<sigla>IME</sigla>
+			<especialidade>Engenharia de Computação</especialidade>
+			<anodeformatura>2015</anodeformatura>
+		</titulacao>
+	</formacao>
+
+	<experiencia>
+		<trabalho tipo="estagio" cargo="especialista de TI">
+			<empresa>Expert Project</empresa>
+			<dataInicio>03/12/2013</dataInicio>
+			<dataFim>12/02/2014</dataFim>
+			<descricao>Desenvolvimento Web em linguagem PHP/JS e gerência dos processos de URA ativa da Oi</descricao>
+		</trabalho>
+
+		<trabalho tipo="autonomo" cargo="professor">
+			<empresa>Curso FDX/ANPAD</empresa>
+			<dataInicio>07/02/2012</dataInicio>
+			<dataFim>Atual</dataFim>
+			<descricao>Professor efetivo de raciocínio lógico e matemática</descricao>
+		</trabalho>
+
+		<trabalho tipo="estagio" cargo="desenvolvedor">
+			<empresa>Observatório Nacional</empresa>
+			<dataInicio>01/07/2010</dataInicio>
+			<dataFim>05/082010</dataFim>
+			<descricao>Desenvolvimento Web em Python com Framework Django.</descricao>
+		</trabalho>	
+		
+		<trabalho tipo="celetista" cargo="monitor">
+			<empresa>Colégio/Curso pH</empresa>
+			<dataInicio>06/06/2011</dataInicio>
+			<dataFim>09/12/2011</dataFim>
+			<descricao>Monitor de Física, Química e Matemática para turmas regulares e especiais IME/ITA</descricao>
+		</trabalho>
+	</experiencia>
+
+	<listaCursos>
+		<curso tipo="idioma" nome="Curso de inglês">
+			<instituicao>Brasas English Course</instituicao>
+			<anoTermino>2008</anoTermino>
+		</curso>
+		
+		<curso tipo="livre" nome="Curso de Javascript">
+			<instituicao>Caelum RJ</instituicao>
+			<anoTermino>2013</anoTermino>
+			<horas>32</horas>
+		</curso>
+	</listaCursos>
+
+	<listaIdiomas>
+			<idioma nome="Inglês">Fluente</idioma>
+			<idioma nome="Alemão">Básico</idioma>
+			<idioma nome="Espanhol">Básico</idioma>
+	</listaIdiomas>
+
+	<listaCertificacoes>
+		<certificacao entidade="Caelum RJ">Programação front-end com javaScript e jQuery; curso Caelum RJ; 32h</certificacao>
+		<certificacao entidade="Göethe Institut RJ">Goethe-Zertifikat A1: Start Deutsch 1; Goethe Institut</certificacao>
+		<certificacao entidade="ETS">Toefl iBT Dez/2013 - pontuação 105/120.</certificacao>
+	</listaCertificacoes>
+
+	<listaComplementos>
+		<complemento>Formação e experiência militar (Exército Brasileiro).</complemento>
+		<complemento>Fundador e editor-chefe do projeto educacional voluntário DadosDeDeus (DDD).</complemento>
+		<complemento>Experiência em Java, C++ e PHP.</complemento>
+	</listaComplementos>
+</curriculo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!-- Victor Villas Bôas Chaves (Individual) -->
+<CURRICULO-VITAE DATA-ATUALIZACAO="20150425">
+    <DADOS-PESSOAIS PERFIL-COMPLETO="NAO">
+        <NOME FORMATO-CITACAO="CHAVES, V. V. B">Victor Villas Bôas Chaves</NOME>
+        <NASCIMENTO NATURALIDADE="BRASIL" UF="RJ" CIDADE="Rio de Janeiro" DATA="19921005"/>
+        <RESUMO FONTE="INFORMADO PELO AUTOR">Aluno de Graduação em Engenharia da Computação no Instituto Militar de Engenharia.</RESUMO>
+        <AREAS-DE-INTERESSE GRUPO-PREDOMINANTE="COMPUTAÇÃO">
+            <AREA-DO-CONHECIMENTO GRUPO="MATEMÁTICA">Matemática Aplicada</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="COMPUTAÇÃO">Algoritmos</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="COMPUTAÇÃO">Informação</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="MATEMÁTICA">Otimização</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="COMPUTAÇÃO">Segurança</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="COMPUTAÇÃO">Redes</AREA-DO-CONHECIMENTO>
+            <AREA-DO-CONHECIMENTO GRUPO="COMPUTAÇÃO">Criptografia</AREA-DO-CONHECIMENTO>
+        </AREAS-DE-INTERESSE>
+        <ENDERECO PREFERENCIA="ENDERECO_RESIDENCIAL">
+            <ENDERECO-PROFISSIONAL TIPO="ENSINO_PESQUISA" PAIS="Brasil" UF="RJ" LOGRADOURO-COMPLEMENTO="Praça General Tibúrcio, 80" BAIRRO="Urca" CIDADE="Rio de Janeiro">
+                <NOME SIGLA="IME">Instituto Militar de Engenharia</NOME>
+                <DEPARTAMENTO TELEFONE-RAMAL="">Secao de Matematica e Engenharia de Sistemas</DEPARTAMENTO>
+            </ENDERECO-PROFISSIONAL>
+            <ENDERECO-RESIDENCIAL PAIS="Brasil" UF="RJ" LOGRADOURO-COMPLEMENTO="Rua Ramiro Ribeiro, 41" BAIRRO="Anil" CIDADE="Rio de Janeiro"/>
+        </ENDERECO>
+    </DADOS-PESSOAIS>
+    <FORMACAO-ACADEMICA-TITULACAO MAIS-RELEVANTE="GRADUACAO">
+        <GRADUACAO ESTADO="INCOMPLETO">
+            <TRABALHO-DE-CONCLUSAO-DE-CURSO NOTA="">
+                <TITULO TITULO-EM-INGLES=""></TITULO>
+                <ORIENTADOR TITULACAO=""></ORIENTADOR>
+            </TRABALHO-DE-CONCLUSAO-DE-CURSO>
+            <NOME-INSTITUICAO SIGLA="IME">Instituto Militar de Engenharia</NOME-INSTITUICAO>
+            <CURSO AREA="ENGENHARIA" ANO-DE-INICIO="2012" ANO-DE-CONCLUSAO="">Egenharia de Computação</CURSO>
+        </GRADUACAO>
+    </FORMACAO-ACADEMICA-TITULACAO>
+    <IDIOMAS POSSUI-INGLES="SIM">
+        <IDIOMA IDIOMA="EN" DESCRICAO-DO-IDIOMA="Inglês" CERTIFICADO="SIM" NATIVO="NAO"/>
+        <IDIOMA IDIOMA="PTBR" DESCRICAO-DO-IDIOMA="Português" CERTIFICADO="NAO" NATIVO="SIM"/>
+    </IDIOMAS>
+    <PREMIOS-TITULOS QUANTIDADE="6" POSSUI-INTERNACIONAL="SIM">
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2011">
+            <NOME NOME-EM-INGLES="">Medalha de Ouro no Desafio PUC de Matemática</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">Pontifícia Universidade Católica do Rio de Janeiro</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2012">
+            <NOME NOME-EM-INGLES="">Medalha de Prata na Olimpíada Interna de Matemática do IME</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">Instituto Militar de Engenharia</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2013">
+            <NOME NOME-EM-INGLES="">Medalha de Prata na Olimpíada Interna de Matemática do IME</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">Instituto Militar de Engenharia</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2013">
+            <NOME NOME-EM-INGLES="">Menção Honrosa na Olimpíada Brasileira de Matemática Universitária</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">Sociedade Brasileira de Matemática</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2014">
+            <NOME NOME-EM-INGLES="">Medalha de Prata na Olimpíada de Matemática Interna do IME</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">Instituto Militar de Engenharia</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+        <PREMIO-TITULO ANO-DA-PREMIACAO="2014">
+            <NOME NOME-EM-INGLES="Second Prize in the 21th Internation Mathematics Competition for University Students">Medalha de Prata na Olimpíada Internacional de Matemática</NOME>
+            <ENTIDADE-PROMOTORA PAIS="BRASIL">University College London</ENTIDADE-PROMOTORA>
+        </PREMIO-TITULO>
+    </PREMIOS-TITULOS>
+</CURRICULO-VITAE>

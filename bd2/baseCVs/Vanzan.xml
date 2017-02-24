@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<curriculo>
+	<dados_pessoais>
+		<nome_completo nome="Matheus Vanzan Pimentel de Oliveira">
+			<primeiro>Matheus</primeiro>
+			<ultimo>Oliveira</ultimo>
+		</nome_completo>
+		<nome_em_citacoes_bibliograficas>VANZAN, M. P. O.</nome_em_citacoes_bibliograficas>
+		<nacionalidade>Brasileiro</nacionalidade>
+		<data_nasc dia="12" mes="12" ano="1992" />
+		<sexo>M</sexo>
+		<cpf>05831047709</cpf>
+	</dados_pessoais>
+	<dados_profissionais>
+		<formacao>
+			<inst tipo="2 grau" tag="Ensino médio">
+				<nome>Sistema Elite de Ensino</nome>
+				<ano inicio="2009" termino="2010" />
+			</inst>
+			<inst tipo="3 grau" tag="Graduacao">
+				<nome>Instituto Militar de Engenharia</nome>
+				<ano inicio="2011" termino="2015" />
+			</inst>
+		</formacao>
+		<extra>
+			<inst tag="Curso de linguas">
+				<nome>Ibeu</nome>
+				<ano inicio="2009" termino="2010" />
+			</inst>
+		</extra>
+	</dados_profissionais>
+</curriculo>

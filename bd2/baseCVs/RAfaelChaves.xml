@@ -1,0 +1,317 @@
+<!-- Trabalho BD2 -->
+<!-- Grupo -->
+<!-- Felipe Ferraz-->
+<!-- Rafael Chaves-->
+<!-- Raffael Russo-->
+
+<CurriculumVitae>
+	<header>
+		<name>
+			<firstname> Rafael </firstname>
+			<surname> Chaves </surname>
+		</name>
+		<address>
+			<building> Lac Premier </building>
+			<street> 
+				<name> Avenida Prefeito Dulcidio Cardoso </name>
+				<number>3230</number>
+			</street>
+			<neighborhood> Barra da Tijuca </neighborhood>
+			<municipalty> Rio de Janeiro </municipalty>
+			<state> RJ </state>
+		</address>
+		<contact>
+			<email> rcf.chaves@gmail.com </email>
+			<phone> (21)999612144 </phone>
+		</contact>
+	</header>
+
+	<objective> Estagio </objective>
+	<education>
+		<undergrad id="0">
+			<course> Engenharia de Computacao </course>
+			<name> Instituto Militar de Engenharia </name>
+			<conclusion> 
+				<date> 
+					<month> dez </month>
+					<year> 2016 </year>
+				</date>
+			</conclusion>
+			<GPAscore> 8.4 </GPAscore>
+		</undergrad>
+
+	</education>
+	
+	<WorkExperience>
+		<work id="0" >
+			<label> Estagiario </label>
+			<employer> 
+				<name> Murano Investimentos </name>
+				<address>
+					<building> Edificio Le Monde </building>
+					<street> 
+						<name> Avenida das Americas </name>
+						<number> 3500 </number>
+					</street>
+					<neighborhood> Barra da Tijuca </neighborhood>
+					<municipalty> Rio de Janeiro </municipalty>
+					<state> RJ </state>
+				</address>
+			</employer>
+			<from>
+				<date>
+					<month> jul </month>
+					<year> 2012 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> ago </month>
+					<year> 2013 </year>
+				</date>
+			</to>
+			<area>
+				Fundo de investimento quantitativo
+			</area>
+			<duties>
+				<duty id="0">
+					<description>
+						Automatizacao de planilhas de controle de fundo
+					</description>
+					<results>
+						Seis planilhas reestruturadas com aviso por email em caso de erro, economizando tempo com atividades operacionais
+					</results>
+				</duty>
+				<duty id="1">
+					<description>
+						Otimizacao de portfolio de fundos com finalidade de comparar o rendimento da carteira com e sem a Murano Investimentos
+					</description>
+					<results>
+						Apos 1000 simulacoes com 6 metodologias diferentes, a carteira com a murano obteve na media Sharpe Ratio e Sortino Ratio melhores
+					</results>
+				</duty>
+				<duty id="2">
+					<description>
+						Implementacao da planilha de controle de risco via cenario de Stress e calculo do VaR e CVar
+					</description>
+					<results>
+						Calculo a cada 2 minutos do Risco atual, demorando 20 segundos, utilizado com parametro em estrategias de hedge para futuros e acoes.
+					</results>
+				</duty>
+
+			</duties>
+		</work>
+
+
+		<work id="1" >
+			<label> Estagiario </label>
+			<employer> 
+				<name> BBM Investimentos </name>
+				<address>
+					<building> </building>
+					<street> 
+						<name> Praca Pio X </name>
+						<number> 98 </number>
+					</street>
+					<neighborhood> Centro </neighborhood>
+					<municipalty> Rio de Janeiro </municipalty>
+					<state> RJ </state>
+				</address>
+			</employer>
+			<from>
+				<date>
+					<month> dez </month>
+					<year> 2014 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> jun </month>
+					<year> 2015 </year>
+				</date>
+			</to>
+			<area>
+				Modelos e Fundos quantitativos
+			</area>
+			<duties>
+				<duty id="0">
+					<description>
+						Implementacao de um mapeamento dos ativos externos no Banco de Dados
+					</description>
+					<results>
+						99% dos ativos da base de dados externa mapeados no banco de dados interno
+					</results>
+				</duty>
+				<duty id="1">
+					<description>
+						Metricas de Fluxo em fundos de investimento de acoes e em NTN-B
+					</description>
+					<results>
+						Utilizacao do fluxo de dinheiro em fundos IMA-B como metrica de precificacao de NTN-B
+					</results>
+				</duty>
+				<duty id="2">
+					<description>
+						Replicacao de fundos de investimentos em seus fatores de risco
+					</description>
+					<results>
+						Criacao de um fundo medio da industria de fundos utilizado como benchmark para verificar a pressao de fluxo em cada fator.
+						Saber a exposicao dos outros fundos no momento.
+					</results>
+				</duty>
+
+			</duties>
+		</work>
+
+	</WorkExperience>
+
+
+
+	<research>
+		<project id="0">
+			<title> Eletronica embarcada para um sistema de multiplos robos autonomos </title>
+			<from>
+				<date>
+					<month> jul </month>
+					<year> 2012 </year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month> ago </month>
+					<year> 2013 </year>
+				</date>
+			</to>
+			<brief> Aprimoramento da inteligencia e firmware do time de futebol de robos do IME com finalidade de participar das competicoes internacionais RoboCup 		e LARC (Latin America) na categoria Small Size League. 
+			</brief>
+			<sponsorship>
+				<name> CNPq </name>
+			</sponsorship>
+		</project>
+	</research>
+	
+	<awards>
+		<honor id="0">
+			<description>
+			</description>
+		</honor>
+	</awards>
+
+	<courses>
+		<course id="0">
+			<name> Excel Avancado aplicado a Bolsa de Valores </name>
+			<company> 
+				<name> IEG </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> set </month>
+						<year> 2014 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> nov </month>
+						<year> 2014 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Principais Recursos do Excel </name>
+				</topic>
+				<topic id="1">
+					<name> Teoria Moderna do Portfolio </name>
+				</topic>
+				<topic id="2">
+					<name> Indicadores Técnicos </name>
+				</topic>
+				<topic id="3">
+					<name> Sistemas de Negociacao </name>
+				</topic>
+			</topics>
+		</course>
+
+		<course id="1">
+			<name> Curso de Ingles </name>
+			<company> 
+				<name> Cultura Inglesa </name>
+			</company>
+			<period>
+				<from>
+					<date>
+						<month> fev </month>
+						<year> 2004 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2009 </year>
+					</date>
+				</to>
+			</period>
+			<topics>
+				<topic id="0">
+					<name> Gramatica </name>
+				</topic>
+				<topic id="1">
+					<name> Vocabulario </name>
+				</topic>
+				<topic id="2">
+					<name> Conversacao </name>
+				</topic>
+				<topic id="3">
+					<name> Escrita </name>
+				</topic>
+			</topics>
+		</course>
+	</courses>
+
+	<ComplementaryActivities>
+		<activity id="0">
+			<name> AIESEC RJ </name>
+			<label> PMO Manager </label>
+			<area> Voluntario </area>
+			<period>
+				<from>
+					<date>
+						<month> fev </month>
+						<year> 2004 </year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month> dez </month>
+						<year> 2009 </year>
+					</date>
+				</to>
+			</period>
+			<duties>
+				<duty id="0">
+					<description>
+						Coordenar projetos de venda de intercambio social para faculdades com foco na gestao.
+					</description>
+					<results>
+						Dois de tres projetos bateram a meta de 45 intercambios, sendo que anteriormente nenhum dos dois projetos existentes chegou a sua meta de 30 intercambios.
+					</results>
+			</duties>
+		</activity>
+	</ComplementaryActivities>
+
+	<PersonalSkills>
+		<skill id="0" name="Linguagens de Programacao">
+			<name id="0"> C++ </name>
+			<name id="1"> Java </name>
+			<name id="2"> C </name>
+			<name id="3"> SQL </name>
+			<name id="4"> VBA </name>
+			<name id="5"> R </name>
+		</skill>
+		<skill id="1" name = "Linguas">
+			<name id="0"> Ingles </name>
+		</skill>
+	</PersonalSkills>
+
+</CurriculumVitae>

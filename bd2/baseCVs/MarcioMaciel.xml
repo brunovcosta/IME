@@ -1,0 +1,79 @@
+<!-- Bianca, Maciel e Rocha --> 
+<trabalho>
+	<cv>
+		<identificacao>
+			<nome>Marcio Maciel Bastos</nome></identificacao>
+		<enderecoProfissional>Instituto Militar de Engenharia, Secao de Matematica e Engenharia de Sistemas. Praça General Tiburcio Urca 22290270 - Rio de Janeiro, RJ - Brasil
+		</enderecoProfissional>
+		<telefone>(21) 982548181
+		</telefone>
+		<formacaoAcademica>
+    			<desde>
+				<data><ano>2005</ano></data>
+			</desde>
+    			<ate>
+				<data><ano>2009</ano></data>
+      			</ate>
+			<descricao>Graduação em Engenharia de Combate. Academia Militar das Agulhas Negras, AMAN, Brasil.Título: EMPREGO DE MERGULHADORES DA COMPANHIA DE ENGENHARIA DE COMBATE: O EMPREGO DE MERGULHADORES NO RESGATE DE MATERIAL. Orientador: César Alexandre Carli.</descricao>
+			<desde>
+				<data><ano>2013</ano></data>
+			</desde>
+    			<ate>
+				<data><ano></ano></data>
+      			</ate>
+			<descricao>Graduação em andamento em Engenharia da Computação. Instituto Militar de Engenharia, IME, Brasil.</descricao>
+  		</formacaoAcademica>
+		<experienciaProfissional>
+			<descricao>Comandante da equipe de Terraplanagem, Reciclagem e emprego de BGS/BGTC nas Obras de Adequação e Restauração no Lote 5 da BR-101</descricao>
+			<descricao>Comandante da equipe de Pavimentação em CBUQ nas Obras de Adequação e Restauração no Lote 5 da BR-101.</descricao>
+			<descricao>Comandante da equipe de CCR e pavimentação Rígida em Concreto Armado CBUQ nas Obras de Adequação e Restauração no Lote 5 da BR-101.</descricao>
+			<descricao>Comandante da equipe de Barreira “New Jersey” e drenagem nas Obras de Adequação e Restauração no Lote 5 da BR-101.</descricao>
+			<descricao>Sub-Chefe de Operações nas Obras de Adequação e Restauração no Lote 5 da BR-101.</descricao>
+			<descricao>Adjunto ao Chefe da Seção de Aquisições, Licitações e Contratos (SALC) do 2° Batalhão de Engenharia de Construção, Teresina-PI.</descricao>
+  		</experienciaProfissional>
+	</cv>
+	<cv>
+		<identificacao>
+			<nome>Bianca</nome></identificacao>
+		<enderecoProfissional>Instituto Militar de Engenharia, Secao de Matematica e Engenharia de Sistemas. Praça General Tiburcio Urca 22290270 - Rio de Janeiro, RJ - Brasil
+		</enderecoProfissional>
+		<telefone>(21) 982548181
+		</telefone>		
+    		<formacaoAcademica>
+		<desde>
+			<data><ano>2012</ano></data>
+		</desde>
+    		<ate>
+			<data><ano>2016</ano></data>
+      		</ate>
+		<descricao>Graduação em andamento em Engenharia da Computação. Instituto Militar de Engenharia, IME, Brasil.</descricao>
+		</formacaoAcademica>  		
+		<experienciaProfissional>
+			<descricao>
+			 
+			</descricao>
+  		</experienciaProfissional>
+	</cv>
+	<cv>
+		<identificacao>
+			<nome>Rocha</nome></identificacao>
+			<enderecoProfissional>Instituto Militar de Engenharia, Secao de Matematica e Engenharia de Sistemas. Praça General Tiburcio Urca 22290270 - Rio de Janeiro, RJ - Brasil
+			</enderecoProfissional>
+			<telefone>(21) 982548181
+			</telefone>
+    		<formacaoAcademica>
+		<desde>
+			<data><ano>2012</ano></data>
+		</desde>
+    		<ate>
+			<data><ano>2016</ano></data>
+      		</ate>
+		<descricao>Graduação em andamento em Engenharia da Computação. Instituto Militar de Engenharia, IME, Brasil.</descricao>
+		</formacaoAcademica>  		
+		<experienciaProfissional>
+			<descricao>
+			 
+			</descricao>
+  		</experienciaProfissional>
+	</cv>
+</trabalho>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<curriculum> CURRICULUM	
+	<dados> Informações Pessoais
+		<nome> João Luiz do Prado Neto
+		</nome>
+		<idade> 24 anos
+		</idade>
+		<telefone> 
+			   <telefonefixo> (21) 2234-5678
+			   </telefonefixo>
+                           <telefonecelular> (21)980685427
+			   </telefonecelular>
+		</telefone>
+		
+	</dados>
+	<formacao faculdade="Instituto Militar de Engenharia" curso="Engenharia da Computação" previsao="Dezembro de 2015"> Formação 
+	</formacao>
+	<experiencia exp1="2011-2013 - IME júnior" exp2="Estágiario BBM"> Experiência Profissional
+	</experiencia>
+	<qualificacao idiomas="Inglês e Francês." linguagens="C,C++,Java." programas="Mysql,Neo4J,Photoshop,Corel Draw."> Qualificações
+	</qualificacao>
+	<outros trabalho="Trabalho Voluntário na JMJ, Projeto Social Eureka" premiações="2º Lugar Nacional no Desafio Artemisia de resolução de Case, publicação de artigo em Engenharia de Materiais"> Outros
+	</outros>
+</curriculum>

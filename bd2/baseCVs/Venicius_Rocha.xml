@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo>
+   <InformacaoPessoal>
+      <NomeCompleto lang = "pt">Venicius Goncalves da Rocha Junior</NomeCompleto>
+      <Nacionalidade lang = "pt">Brasileiro</Nacionalidade>
+      <EstadoCivil lang = "pt">Solteiro</EstadoCivil>
+	  <Idade lang = "pt">24</Idade>
+	  <Endereco>
+			<Logradouro lang = "pt">Praca general tiburcio</Logradouro>
+			<Numero lang = "pt">80</Numero>
+			<Bairro lang = "pt">Urca</Bairro>
+			<Cidade lang = "pt">Rio de Janeiro</Cidade>
+			<UF lang = "pt">RJ</UF>
+	  </Endereco>
+	  <Contatos>
+         <Telefone lang = "pt">21-98370-4610</Telefone>
+         <Email lang = "pt">veniciusgrjr@gmail.com</Email>
+		 <Skype lang = "pt">Venicius Goncalves</Skype>
+      </Contatos>
+   </InformacaoPessoal>
+   <Formacao>
+		<Graduacao id = "1">
+			<Nome lang = "pt">Instituto Militar de Engenharia</Nome>
+			<Curso lang = "pt">Engenharia de Computacao</Curso>
+			<Situacao lang = "pt">7 periodo</Situacao>
+			<Periodo>
+				<Inicio>2012</Inicio>
+				<Termino>2016</Termino>
+			</Periodo>
+		</Graduacao>
+		<Pos-Graduacao id = "1">
+			<Nome lang = "pt">Fundacao Getulio Vargas</Nome>
+			<Curso lang = "pt">Mestrado em Modelagem Matematica</Curso>
+		</Pos-Graduacao>
+   </Formacao>
+   <ExperienciaProfissional>
+		<Empresa id ="1">
+			<Nome lang = "pt">Sistema Elite de Ensino</Nome>
+			<Cargo lang = "pt">Professor</Cargo>
+			<Atividades lang = "pt">Aulas de matematica e fisica para ensino medio e turmas ime-ita</Atividades>
+			
+		</Empresa>
+   </ExperienciaProfissional>
+   <Qualificacoes>
+		<IniciacaoCientifica lang = "pt" id ="1">Pesquisa com microcontrolador STM32F407vg para aplicação no desenvolvimento de Casa Inteligente (IME-CNPQ, conclusão em 2013).</IniciacaoCientifica>
+		<IniciacaoCientifica lang = "pt" id ="2">Iniciação científica: Desenvolvimento de aplicativos em java para medida de antenas, análise de circuitos e controle de uma máquina Router (IME-CNPQ, de 05/12 a 08/14 ).</IniciacaoCientifica>
+		<MBA lang = "pt">MBA Jr no IEG (Instituto de Engenharia e Gestão) – Mestrado de 90 horas em Economia no centro de treinamento da Empresa de Consultoria Viságio – (Cursando em 2015)</MBA>
+		<Idiomas>
+			<Ingles lang = "pt">Leitura Avançado/ Compreensão: Avançado/ Conversação: Intermediário</Ingles>
+			<Russo lang = "pt">Leitura Intermediario/ Compreensão: Basico/ Conversação: Basico</Russo>
+		</Idiomas>
+   </Qualificacoes>
+</curriculo>

@@ -1,0 +1,51 @@
+<!-- Aluno Cristopher Gomes Leal 	
+	grupo:Leal ,Zalla
+-->
+<curriculum >
+	<cabecalho>
+		<dados-pessoais>
+			<nome>Cristopher Gomes Leal</nome>
+			<nacinalidade>Brasileiro</nacinalidade>
+  			<estado-civil>Solteiro</estado-civil>
+  			<idade>22</idade>
+		</dados-pessoais>
+		<contato>
+			<endereco>
+				<logradouro>Rua brás Cubas ,lote 34 ,quadra 76</logradouro>
+				<bairro>Olavo Bilac</bairro>
+				<cidade>Duque de Caxias</cidade>
+				<UF>RJ</UF>
+			</endereco>
+			<telefone tipo="celular" id="tel1">(21)98688-9209 </telefone>
+			<telefone tipo="fixo" id="tel2">(21)3653-4287</telefone>
+ 			<e-mail> cristopher.gomes.leal@gmail.com</e-mail>
+		</contato>
+	</cabecalho>
+	<objetivo cargo="estagiario">Estágio na área de desenvolvimento de sistemas</objetivo>
+	<formacao>
+		<formacao-item tipo="Graduação">
+			<curso>Engenharia de Computação</curso>
+			<instituicao>Instituto Militar de Engenharia</instituicao>
+			<conclusao>2016</conclusao>
+		</formacao-item>
+	</formacao>
+	<exp-prof>
+		<exp-prof-item inicio="2013" fim="2014">
+			<instituicao  contato="">Morning Star Consulting</instituicao>
+			<cargo>Estagiário</cargo>
+			<atividade>
+				<atividade-item>	
+				Desenvolvimento de sistemas na plataforma
+			Microsoft .net
+				</atividade-item>
+			</atividade>
+		</exp-prof-item>
+	</exp-prof>
+	<qualificacao>
+		<qualificacao-item tipo="ligua">
+				Inglês-Intermediário(Microcamp-4 anos ,conclusão 2012)
+		</qualificacao-item>
+ 	</qualificacao>
+	<info-adicional>
+	</info-adicional>/
+</curriculum>

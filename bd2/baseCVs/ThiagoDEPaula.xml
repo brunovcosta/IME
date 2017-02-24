@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Lucas Rocha Garcia (12420)
+Rafael Farias Cação (12430)
+Robinson Callou de Moura Brasil Filho (12435)
+Thiago de Paula Vasconcelos (11442)-->
+
+<CV>
+   <Name>
+      Thiago de Paula Vasconcelos
+   </Name>
+   <Body>
+      <Identificaco>
+         <Nascimento>15/02/1992</Nascimento>
+         <Naturalidade>
+            <Cidade>Fortaleza</Cidade>
+            <UF>CE</UF>
+            <Pais>Brasil</Pais>
+         </Naturalidade>
+         <Endereco>
+            <Logradouro>Rua Marechal Francisco de Moura</Logradouro>
+            <Numero>70</Numero>
+            <Complemento>apt 201</Complemento>
+            <Bairro>Botafogo</Bairro>
+            <Cidade>Rio de Janeiro</Cidade>
+            <UF>RJ</UF>
+            <CEP>22260-140</CEP>
+         </Endereco>
+         <Telefones>
+            <Telefone>
+               <Id>1</Id>
+               <Number>(85) 8905-1502</Number>
+            </Telefone>
+            <Telefone>
+               <Id>2</Id>
+               <Number>(21) 98164-5072</Number>
+            </Telefone>
+         </Telefones>
+         <Email>
+            <Id>1</Id>
+            <Value>thiagodpvasconcelos@hotmail.com</Value>
+         </Email>
+         <Email>
+            <Id>2</Id>
+            <Value>thiagodpvasconcelos@gmail.com</Value>
+         </Email>
+      </Identificaco>
+      <Formacao>
+         <Graduacao>
+            <Id>1</Id>
+            <Instituicao>Instituto Militar de Engenharia</Instituicao>
+            <Curso>Engenharia de Computação</Curso>
+            <Inicio>Janeiro de 2011</Inicio>
+            <Fim>Dezembro de 2016</Fim>
+         </Graduacao>
+         <Graduacao>
+            <Id>2</Id>
+            <Instituicao>University of Illinois at Urbana-Champaign - USA</Instituicao>
+            <Curso>Engenharia de Computação</Curso>
+            <Inicio>Janeiro de 2014</Inicio>
+            <Fim>Dezembro de 2014</Fim>
+         </Graduacao>
+      </Formacao>
+      <Linguas>
+         <Lingua>
+            <Id>1</Id>
+            <Nome>Ingles</Nome>
+            <Nivel>Avancado</Nivel>
+         </Lingua>
+         <Lingua>
+            <Id>2</Id>
+            <Nome>Frances</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Lingua>
+      </Linguas>
+      <Experiencias>
+         <Experiencia>
+            <Id>1</Id>
+            <Empresa>Descomplica</Empresa>
+            <Cargo>Estagiario</Cargo>
+            <Inicio>19/02/2015</Inicio>
+            <Fim></Fim>
+         </Experiencia>
+      </Experiencias>
+      <Programacao>
+         <Linguagem>
+            <Id>1</Id>
+            <Nome>C/C++</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>2</Id>
+            <Nome>Java</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>3</Id>
+            <Nome>Python</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>4</Id>
+            <Nome>C#</Nome>
+            <Nivel>Basico</Nivel>
+         </Linguagem>
+      </Programacao>
+      <Meritos>
+         <Bolsas>
+            <Bolsa>
+               <Id>1</Id>
+               <Descricao>Iniciacao Cientifica no Conselho Nacional de Desenvolvimento Cientifico Tecnologico (CNPq)</Descricao>
+               <Inicio>Julho de 2012</Inicio>
+               <Fim>Dezembro de 2013</Fim>
+            </Bolsa>
+            <Bolsa>
+               <Id>2</Id>
+               <Descricao>Ciencias sem Fronteiras nos Estados Unidos</Descricao>
+               <Inicio>Janeiro de 2014</Inicio>
+               <Fim>Dezembro de 2014</Fim>
+            </Bolsa>
+         </Bolsas>
+         <Publicacoes>
+            <Publicacao>
+               <Id>1</Id>
+               <Nome>Sobre a Conectividade Algebrica de tipo II na Subclasse das Arvores</Nome>
+               <Tipo>Artigo</Tipo>
+               <Evento>XLV Simposio Brasileiro de Pesquisa Operacional (XLV SBPO)</Evento>
+               <Ano>2013</Ano>
+            </Publicacao>
+         </Publicacoes>
+      </Meritos>
+   </Body>
+</CV>

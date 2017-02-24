@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<cv:schema xmlns:cv="http://www.w3.org/2001/XMLSchema">
+	<curriculum>
+		<personal>
+			<fname>Willian</fname>
+			<lname>Kanashiro</lname>
+			<age>25</age>
+			<birthday>25/08/1988</birthday>
+			<gender>masculino</gender>
+			<nationality>brasileiro</nationality>
+		</personal>
+		<educational>
+			<formation>
+				<highschools>
+					<highschool country="brasil" state="sao paulo" city="sao paulo">Centro Educacional de Ensino Tecnológico de São Paulo(CEFET-SP)</highschool>
+					<highschool country="brasil" state="rio de janeiro" city="angra dos reis">Colégio Naval</highschool>
+				</highschools>
+				<colleges>
+					<college country="brasil" state="rio de janeiro" city="rio de janeiro" course="engenharia da computacao" end-year="2015">Instituto Militar de Engenharia</college>
+				</colleges>
+			</formation>
+				<coursers>
+					<Course>Práticas Ágeis para Desenvolvimento de Software em .Net</Course>
+				</coursers>
+				<languages>
+					<language nivel="native">Português</language>
+					<language nivel="basic">Inglês</language>
+				</languages>
+				<prizes>
+					<prize year="2007">Olimpíada Brasileira de Matemática de Escolas Públicas - Prata</prize>
+					<prize year="2008">Olimpíada Brasileira de Matemática de Escolas Públicas - Prata</prize>
+				</prizes>
+				<projects>
+					<project type="iniciacao cientifica" start-year="2011" end-year="2012">ESTRUTURA ELETRÔNICA E EFEITO DE MICRO-ONDAS EM 
+					CATALISADORES DE SULFETO DE MOLIBDÊNIO </project>
+					<project type="iniciacao cientifica" start-year="2012" end-year="2013">ESTUDO E PRODUÇÃO DE HOLOGRAFIAS DE REFLEXÃO E TRANSMISSÃO</project>
+					<project type="tema dirigido" start-year="2012" end-year="2012">ESTUDO E PRODUÇÃO DE HOLOGRAFIAS TRANSMISSÃO</project>
+					<project type="iniciacao a pesquisa" start-year="2013" end-year="2014">TOMADAS DE DECISÃO PARA A TAREFA DE PICK-AND-PLACE ROBÓTICA</project>
+				</projects>
+		</educational>
+		<professional>
+			<works>
+				<work>
+					<enterprise>Descomplica</enterprise>
+					<function>Estagiário</function>
+					<area>Tecnologia da Informação(TI)</area>
+					<start format="year">2012</start>
+					<end format="year"></end>
+				</work>
+			</works>
+			<knowledges>
+				<knowledge>C#</knowledge>
+				<knowledge>.NET</knowledge>
+				<knowledge>REDIS</knowledge>
+				<knowledge>SQL</knowledge>
+				<knowledge>HTML5</knowledge>
+			</knowledges>
+			</professional>
+	</curriculum>
+</cv:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo>
+   <InformacaoPessoal>
+      <DataNascimento>03-06-1985</DataNascimento>
+      <Nomecompleto>Leonardo Sá Silveira Lima</Nomecompleto>
+      <Contatos>
+         <Morada>
+              <Rua>Rua Gustavo Sampaio</Rua>
+              <Num>344</Num>
+			  <Bairro>Leme</Bairro>
+              <Cidade>Rio de Janeiro</Cidade>
+			  <UF>RJ</UF>
+              <Pais>Brasil</Pais>
+         </Morada>
+		 <Trabalho>
+			<Rua>Pça. Gen Tiburcio</Rua>
+            <Num>80</Num>
+            <Cidade>Rio de Janeiro</Cidade>
+			<Bairro>Urca</Bairro>
+			<UF>RJ</UF>
+            <Pais>Brasil</Pais>
+		 </Trabalho>
+         <Telefone DDD="21">8693-1000</Telefone>
+         <CorreioEletronico>leolima@ime.eb.br</CorreioEletronico>
+      </Contatos>
+      <Nacionalidade>Brasileiro</Nacionalidade>
+      <Sexo>M</Sexo>
+   </InformacaoPessoal>
+   <objetivo>Ampliar os conhecimentos na área Finanças vivenciando o cotidiano de um Banco, seja através do aprendizado de novos métodos ou da implementação dos mesmos utilizando conhecimentos adquiridos.</objetivo>
+   <Experiencia>
+      <Cargo>Estagiário</Cargo>
+	  <Area>Análise de Crédito</Area>
+      <Empregador>Banco BBM</Empregador>
+   </Experiencia>
+   <FormacaoAcademica>
+		<Universidade>Instituto Militar de Engenharia</Universidade>
+		<Nivel>Superior Incompleto</Nivel>
+   </FormacaoAcademica>
+</curriculo>

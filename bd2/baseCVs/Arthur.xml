@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<!--ARTHUR FERNANDES ARAUJO 11005-->
+
+<CURRICULUM-VITAE DATA-ATUALIZACAO="27/02/2014" > 
+  <DADOS-GERAIS nome="ARTHUR" sobrenome="FERNANDES ARAUJO" nacionalidade="brasileiro" idade="21">
+    <TELEFONE>
+      <CELULAR ddi="+55" ddd="21" numero="982688866"/>
+    </TELEFONE>
+    <ENDERECO>
+      <ENDERECO-PROFISSIONAL pais="Brasil" estado="rj" cidade="Rio de Janeiro" endereco="Praca General Tiburcio 80" CEP="22290-270">
+	<INSTITUICAO>Instituto Militar de Engenharia</INSTITUICAO>
+      </ENDERECO-PROFISSIONAL>
+    </ENDERECO>
+    <EMAIL>
+      <email>arthurfernandes05@gmail.com</email>
+    </EMAIL>
+  </DADOS-GERAIS>
+  <FORMACAO>
+    <GRADUACAO EM-ANDAMENTO="true">
+      <INICIO>2011</INICIO>
+      <TERMINO>2015</TERMINO>
+      <INSTITUICAO>Instituto Militar de Engenharia</INSTITUICAO>
+      <INFORMACOES-ADICIONAIS>Classificado em oitavo lugar de uma turma com 111 alunos e em primeiro lugar do curso de Engenharia da Computacao</INFORMACOES-ADICIONAIS>
+    </GRADUACAO>
+    <ENSINO-MEDIO>
+      <INICIO>2008</INICIO>
+      <TERMINO>2010</TERMINO>
+      <INSTITUICAO>Colegio Naval</INSTITUICAO>
+    </ENSINO-MEDIO>
+  </FORMACAO>
+  <ATIVIDADES-PROFISSIONAIS>
+    <ESTAGIO empresa="PSAFE" inicio="11/13" termino="03/14">
+      <DESCRICAO>Trabalhou com o desenvolvimento do antivirus da empresa, desenvolvido com base na linguagem C++ e utilizacao do Qt</DESCRICAO>
+    </ESTAGIO>
+    
+    <CURSO instituicao="IMPA" inicio="03/13" termino="06/13">
+      Curso de Sistemas Graficos 3D
+    </CURSO>
+    <PUBLICACAO ano="2012">
+      <INSTITUICAO>Congresso Brasileiro de Engenharia e Ciencia dos Materiais</INSTITUICAO>
+      <DESCRICAO>Sintese e Caracterizacao de Nanoparticulas de Y3Fe5O12 pelo metodo de combustao homogenea</DESCRICAO>
+    </PUBLICACAO>
+    <INICIACAO-CIENTIFICA inicio="08/12" termino="07/13">
+      <TEMA>Controle de Sistemas de Informacao Geografica utilizando a plataforma Kinect</TEMA>
+    </INICIACAO-CIENTIFICA>
+  </ATIVIDADES-PROFISSIONAIS>
+  <INFORMACOES-ADICIONAIS>
+    <IDIOMA idioma="ingles" nivel="avancado">
+      <CERTIFICACAO instituicao="TOEFL">
+	<NOTA INDICE="120">98</NOTA>
+      </CERTIFICACAO>
+    </IDIOMA>
+    <IDIOMA idioma="frances" nivel="intermediario" >
+    </IDIOMA>
+    <PREMIACOES>
+      <OLIMPIADA nome="OBMEP">
+	<PREMIO ano="2007">Ouro</PREMIO>
+	<PREMIO ano="2008">Ouro</PREMIO>
+	<PREMIO ano="2009">Ouro</PREMIO>
+      </OLIMPIADA>
+      <OLIMPIADA nome="OBA">
+	<PREMIO ano="2010">Bronze</PREMIO>
+      </OLIMPIADA>
+      <OLIMPIADA nome="Algoritmos Hostnet">
+	<PREMIO ano="2009">7 lugar</PREMIO>
+      </OLIMPIADA>
+    </PREMIACOES>
+    
+  </INFORMACOES-ADICIONAIS>
+  
+
+
+</CURRICULUM-VITAE>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root tipo="proposito geral">
+    <informacaopessoal>
+        <nome> Lucas Ramos Cardoso Tinôco Cortez</nome>
+        <endereço>
+            <rua> rua General Polidoro </rua> 
+            <numero> 160 </numero>
+            <cidade>Rio de Janeiro </cidade>
+            <estado>Rio de Janeiro </estado>
+            <localreferencia tipo="Hospital">
+                <local> Hospital Pró Cardiaco </local>
+            </localreferencia>
+        </endereço>
+        <telefone tipo="celular">84 99269160 </telefone>
+        <contato>
+            <linkedin> 
+                http://www.linkedin.com/pub/lucas-cortez/b8/779/910
+            </linkedin>
+            <skype> lucasrctc </skype>            
+        </contato>
+    </informacaopessoal>
+    
+    <experienciaprofissional>
+        <empresa> Lógico </empresa>
+        <periodo> 03/2012 até 05/2012 </periodo>
+        <descricao> Monitor de Física do curso pré-vestibular </descricao>        
+    </experienciaprofissional>
+    
+    <formacao nivel="Superior">
+        <instituicao> Instituto Militar de Engenharia </instituicao>
+        <curso> Engenharia de Computação </curso>
+        <inicio> 2011 </inicio>
+        <conclusao> 2016 </conclusao>
+        <topicos> Estrutura de dados
+                  Analise e projeto de Sistemas
+                  Analise e projeto de algoritmos
+                  Banco de dados
+                  Aplicações Web </topicos>
+    </formacao>
+    
+    <formacao nivel="Medio">
+        <instituicao> Colégio Farias Brito </instituicao>
+        <curso> Turma ITA/IME </curso>
+        <inicio> 2007 </inicio>
+        <conclusao> 2009 </conclusao>        
+        <topicos>
+            Física
+            Química
+            Matemática
+            Português
+        </topicos>
+    </formacao>
+    
+    <Competencias>
+        <linguas>
+            <lingua> Ingles </lingua>
+            <compreender> Ótimo </compreender>
+            <falar> Ótimo </falar>
+            <escrever> Ótimo </escrever>
+        </linguas>
+    </Competencias>
+    
+    <premiacoes>
+        <descricao> 2º lugar Olimpíada de Química do Rio Grande do Norte </descricao>
+        <ano> 2008 </ano>
+    </premiacoes>
+    
+    <!--> Luan Ferreira Cardoso
+          Lucas Meireles
+          Lucas Cortez <-->
+</root>
+

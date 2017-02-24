@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<Curriculo>
+<Nome> Europe Moraes Gorito</Nome>
+<Formacao>
+<Faculdade> Instituto Militar de Engenharia</Faculdade>
+<Curso> Engenharia de computacao</Curso>
+<ano_de_entrada>2010</ano_de_entrada>
+<ano_de_sauda> 2015</ano_de_saida>
+<Idiomas> Ingles Intermediario
+<Curso_de_linguas>Cultura Inglesa</Curso_de_linguas>
+</Idiomas>
+</Formacao>
+<Experiencia_profissional></Experiencia_profissional>
+<Interesse> Engenharia</Interesse>
+</Curriculo>

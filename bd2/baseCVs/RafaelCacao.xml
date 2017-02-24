@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV>
+   <Name>
+      Rafael Farias Cao
+   </Name>
+   <Body>
+      <Identificaco>
+         <Nascimento>08/04/1992</Nascimento>
+         <Naturalidade>
+            <Cidade>Campo Grande</Cidade>
+            <UF>MS</UF>
+            <Pais>Brasil</Pais>
+         </Naturalidade>
+         <Endereco>
+            <Logradouro>Av Portugal</Logradouro>
+            <Numero>584</Numero>
+            <Complemento>apt 202</Complemento>
+            <Bairro>Urca</Bairro>
+            <Cidade>Rio de Janeiro</Cidade>
+            <UF>RJ</UF>
+            <CEP>22261-050</CEP>
+         </Endereco>
+         <Telefones>
+            <Telefone>
+               <Id>1</Id>
+               <Number>(21) 968995572</Number>
+            </Telefone>
+            <Telefone>
+               <Id>2</Id>
+               <Number>(67) 9263-0040</Number>
+            </Telefone>
+         </Telefones>
+         <Email>
+            <Id>1</Id>
+            <Value>rafafariasc@hotmail.com</Value>
+         </Email>
+         <Email>
+            <Id>2</Id>
+            <Value>rafaelfariasc@gmail.com</Value>
+         </Email>
+      </Identificaco>
+      <Formacao>
+         <Graduacao>
+            <Id>1</Id>
+            <Instituicao>Instituto Militar de Engenharia</Instituicao>
+            <Curso>Engenharia de Computao</Curso>
+            <Inicio>Janeiro de 2012</Inicio>
+            <Fim>Dezembro de 2016</Fim>
+         </Graduacao>
+      </Formacao>
+      <Linguas>
+         <Lingua>
+            <Id>1</Id>
+            <Nome>Ingles</Nome>
+            <Nivel>Avancado</Nivel>
+         </Lingua>
+      </Linguas>
+      <Experiencias>
+         <Experiencia>
+            <Id>1</Id>
+            <Empresa>KADIMA Asset Management</Empresa>
+            <Cargo>Estagiario</Cargo>
+            <Inicio>10/11/2013</Inicio>
+            <Fim></Fim>
+         </Experiencia>
+      </Experiencias>
+      <Programacao>
+         <Linguagem>
+            <Id>1</Id>
+            <Nome>C/C++</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>2</Id>
+            <Nome>Java</Nome>
+            <Nivel>Intermediario</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>3</Id>
+            <Nome>Objective C</Nome>
+            <Nivel>Bsico</Nivel>
+         </Linguagem>
+         <Linguagem>
+            <Id>4</Id>
+            <Nome>C#</Nome>
+            <Nivel>Basico</Nivel>
+         </Linguagem>
+      </Programacao>
+      <Meritos>
+         <Bolsas>
+            <Bolsa>
+               <Id>1</Id>
+               <Descricao>Iniciacao Cientifica no Conselho Nacional de Desenvolvimento Cientifico Tecnologico (CNPq)</Descricao>
+               <Inicio>Julho de 2012</Inicio>
+               <Fim>Dezembro de 2014</Fim>
+            </Bolsa>
+         </Bolsas>
+         <Publicacoes>
+         </Publicacoes>
+      </Meritos>
+   </Body>
+</CV>

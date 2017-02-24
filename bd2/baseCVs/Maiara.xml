@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!-- Maiara Barroso Cardoso Reinaldo 4º ano de Computação-->
+<curriculo>
+<dados_gerais>
+<nacionalidade> brasileira</nacionalidade>
+<idade>22</idade>
+<nome> Maiara Barroso Cardoso Reinaldo</nome>
+<endereco> 
+<rua>Praca General Tiburcio</rua>
+<numero adicional="alojamento feminino">80</numero>
+<cep>22290270</cep>
+<cidade estado="RJ">Rio de Janeiro</cidade>
+</endereco>
+<telefone ddd="21">98342-9580</telefone>
+<email> maiarabarroso84@gmail.com</email>
+</dados_gerais>
+
+<formacao>
+<graduacao conclusao="dez/2015"> 
+<universidade sigla="IME">Instituto Militar de Engenharia</universidade>
+<curso>Engenharia de Computacao</curso>
+</graduacao>
+<classificacao><na_turma>3º</na_turma><geral>17º</geral></classificacao>
+</formacao>
+
+<qualificacoes>
+<idiomas>
+<ingles nivel="avançado">97/120 na prova do TOEFL</ingles>
+<frances nivel="iniciante">equivalente a um A2 do DELFI</frances>
+</idiomas>
+<cursos>
+<computacao_grafica duracao="marco-junho de 2013">
+<nome_curso>Sistemas graficos 3D</nome_curso>
+<local sigla="IMPA">Instituto de Matematica Pura e Aplicada</local>
+</computacao_grafica>
+</cursos>
+<atividades_profissionais>
+<iniciacao_cientifica duracao="agosto/2012-julho/2013">
+<tema>Controle de Sistemas de Informacao Geografica por Gestos utilizando a plataforma Kinect</tema>
+<orgao>CNPq</orgao>
+</iniciacao_cientifica>
+</atividades_profissionais>
+</qualificacoes>
+
+<informacoes_adicionais>
+<olimpiada classificacao="medalha de prata" ano="2009">Olimpiada Brasileira de Matematica para Escolas Publicas</olimpiada>
+<desafio classificacao="grupo finalista, 2º colocado na etapa regional">
+<nome>Deafio Estrategico Bain e Company</nome>
+<empresa ramo="consultoria"> Bain e Company</empresa>
+</desafio>
+</informacoes_adicionais>
+
+</curriculo>

@@ -1,0 +1,83 @@
+<?XML version='1.0' encoding='UTF-8'?>
+<CV candidato="Jonas Rocha Lima Amaro">
+	<Endereco>
+		<Contatos>
+			<Telefone>(21)2226-4186</Telefone>
+			<Celular>(21)8102-9761</Celular>
+			<Email>jonasrla@gmail.com</Email>
+		</Contatos>
+		<Logradouro numero="98" apto="403">
+			<Nome>Rua Voluntários da Pátria</Nome>
+			<CEP>22270-010</CEP>
+		</Logradouro>
+		<Bairro>Botafogo</Bairro>
+		<Cidade>Rio de Janeiro</Cidade>
+		<Estado UF="RJ">Rio de Janeiro</Estado>
+		<Pais>Brasil</Pais>
+	</Endereco>
+	<Educacao>
+		<Ensino Grau="Fundamental">
+			<Nome>Canarinho</Nome>
+			<Periodo>2000-2003</Periodo>
+		</Ensino>
+		<Ensino Grau="Fundamental">
+			<Nome>Farias Brito</Nome>
+			<Periodo>2004-2007</Periodo>
+		</Ensino>
+		<Ensino Grau="Médio">
+			<Nome>Farias Brito</Nome>
+			<Periodo>2008-2010</Periodo>
+		</Ensino>
+		<Ensino Grau="Superior">
+			<Nome Curso="Engenharia da Computação">Instituto Militar de Engenharia</Nome>
+			<Periodo>2011-2014</Periodo>
+		</Ensino>
+	</Educacao>
+	<Extracurricular>
+		<Atividade vinculo="Aluno">
+			<Nome>Olimpíadas</Nome>
+			<Descricao>
+				Participei em competições da 5ª série do Ensino Fundamental 2 ao 3º ano do Ensino Médio e em 2013 ano, mas ainda não tive acesso ao resultado. Fui contemplado com uma medalha de prata, duas medalha de bronze e uma menção honrosa na Olimpíada Brasileira de Matemática; com menção honrosa na Olimpíada de Maio; com duas medalhas de bronze e uma menção honrosa na Olimpíada Cearense de Matemática e uma menção honrosa na Olimpíada Brasileira de Física.
+			</Descricao>
+		</Atividade>
+		<Atividade vinculo="Voluntário">
+			<Nome>Integração IME</Nome>
+			<Descricao>
+				Em 2013, fiz parte da Integração IME, uma iniciativa dos alunos do IME que organiza eventos de recrutamento de empresas além de trazer palestrantes influentes e ex-alunos que se destacaram.
+			</Descricao>
+		</Atividade>
+		<Atividade vinculo="Voluntário">
+			<Nome>IME júnior</Nome>
+			<Descricao>
+				Participo da IME Júnior desde agosto de 2011. Na empresa a cada período de um ano, tem-se troca de cargos, dessa forma fui gerente de Gestão de Pessoas, seguindo para diretor de Gestão de Pessoas e, agora, diretor Vice-Presidente. Na empresa tive oportunidade de desenvolver bastante atividades em grupo, como gestão do Processo Seletivo da empresa.
+			</Descricao>
+		</Atividade>
+		<Atividade vinculo="Voluntário">
+			<Nome>Projeto Eureka</Nome>
+			<Descricao>
+				O Projeto Eureka ocorreu no segundo semestre de 2013. Nessa oportunidade tive a oportunidade de desenvolver e um projeto de feira de ciências com um colega do IME e três crianças que estudam no 9º da escola pública. A produção do experimento é uma preocupação dos professores. Já a apresentação do projeto é fica a cargo das crianças. Para que elas pudessem explicar o projeto foram ministradas algumas aulas. Os maiores desafios foi mantê-las motivadas a continuar e entendendo as ciências que em grande parte era novidade para elas.
+			</Descricao>
+		</Atividade>
+		<Atividade vinculo="Voluntário">
+			<Nome>Primeira Chance</Nome>
+			<Descricao>
+				O Primeira Chance é uma ONG na área da educação que dá aos alunos que se destacam no interior do Ceará a oportunidade de estudar nas melhores escolas de Fortaleza. Atuo na ONG desde dezembro de 2013 desenvolvendo o Garimpar, que um aplicativo vendido pela ONG que dispõe alunos premiados em Olimpíadas distribuídos geograficamente.
+			</Descricao>
+		</Atividade>
+	</Extracurricular>
+	<Habilidades>
+		<Habilidade tipo="Linguagem de Programacao">C<Habilidade>
+		<Habilidade tipo="Linguagem de Programacao">C++<Habilidade>
+		<Habilidade tipo="Linguagem de Programacao">Java<Habilidade>
+		<Habilidade tipo="Linguagem de Programacao">Ruby<Habilidade>
+		<Habilidade tipo="Linguagem de Programacao">Python<Habilidade>
+		<Habilidade tipo="Banco de Dados">PostgreSQL</Habilidade>
+		<Habilidade tipo="Banco de Dados">mySQL</Habilidade>
+		<Habilidade tipo="Banco de Dados">Sqlite</Habilidade>
+		<Habilidade tipo="Web">HTML<Habilidade>
+		<Habilidade tipo="Web">CSS<Habilidade>
+		<Habilidade tipo="Línguas Naturais">Inglês avançado<Habilidade>
+		<Habilidade tipo="Programas">GIT</Habilidade>
+		<Habilidade tipo="Programas">Office básico</Habilidade>
+	</Habilidades>
+</CV>
