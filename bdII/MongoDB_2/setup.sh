@@ -9,6 +9,7 @@ service mongodb start
 service mongodb status 
 service mongodb enable 
 
+chmod + x import2
 ./import2
 
 mongo
