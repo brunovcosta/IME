@@ -11,6 +11,11 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.gradle.java"
+    id "com.scuilion.syntastic" version "0.3.8"
+}
+
 allprojects {
     apply plugin: "eclipse"
     apply plugin: "idea"
