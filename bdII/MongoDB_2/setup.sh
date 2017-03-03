@@ -5,9 +5,9 @@ apt-get install -y mongodb-org
 
 gedit /etc/systemd/system/mongodb.service
 
-systemctl start mongodb
-systemctl status mongodb
-systemctl enable mongodb
+service mongodb start  
+service mongodb status 
+service mongodb enable 
 
 ./import2
 
