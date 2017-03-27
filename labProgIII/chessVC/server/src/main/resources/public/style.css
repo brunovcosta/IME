@@ -1,3 +1,9 @@
-#board{
+.centered{
+	width:100%;
+	text-align:center;
 	margin: 0 auto;
+}
+#board{
+	width:500px;
+	display: inline-block;
 }

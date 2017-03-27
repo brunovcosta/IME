@@ -6,13 +6,7 @@ var board = ChessBoard('board', {
 	position: 'start',
 	onDrop: function(source, target, piece, newPos, oldPos, orientation){
 		$.post(apiURL+"/"+location.hash.substr(1),{fen: ChessBoard.objToFen(newPos)},function(data){
-			console.log("Source: " + source);
-			console.log("Target: " + target);
-			console.log("Piece: " + piece);
-			console.log("New position: " + ChessBoard.objToFen(newPos));
-			console.log("Old position: " + ChessBoard.objToFen(oldPos));
-			console.log("Orientation: " + orientation);
-			console.log("--------------------");
+			console.log(data);
 		});
 	},
 	showErrors: 'console'
@@ -22,3 +16,9 @@ setInterval(function(){
 		board.position(fen);
 	});
 },1000);
+
+$("#reset").click(function(evt){
+		$.post(apiURL+"/"+location.hash.substr(1),{fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR'},function(data){
+			console.log(data);
+		});
+});

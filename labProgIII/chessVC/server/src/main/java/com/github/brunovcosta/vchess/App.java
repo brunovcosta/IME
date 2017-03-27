@@ -12,7 +12,12 @@ public class App {
 		staticFiles.location("/public");
 		get("/api/:name", (req, res) -> {
 			String name = req.params(":name").toString();
-			return getFen(name);
+			String fen = getFen(name);
+			if(fen.equals("none")){
+				newGame(req.params(":name"));
+				fen = getFen(name);
+			}
+			return fen;
 		});
 		post("/api/:name", (req, res) -> {
 			String name = req.params(":name").toString();
@@ -57,15 +62,21 @@ public class App {
 			e.printStackTrace();
 		}
 	}
+	private static int newGame(String name){
+		return update("insert into games(name) values ('"+name+"')");
+	}
+
 	private static String getFen(String name){
 		try {
 			System.out.println("select fen from games where name = '"+name+"'");
 			ResultSet rs = query("select fen from games where name = '"+name+"'");
-			rs.next();
-			return rs.getString("fen");
+			if(rs.next())
+				return rs.getString("fen");
+			else
+				return "none";
 		} catch(Exception e){
 			e.printStackTrace();
-			return null;
+			return "error";
 		}
 
 	}
