@@ -8,6 +8,7 @@ public class App {
 
 		GastosDAO dao = new GastosDAO();
 
+		staticFiles.location("/public");
 		get("/gastos/:name", (req, res) -> {
 			return dao.listar(req.params(":name"));
 		});
