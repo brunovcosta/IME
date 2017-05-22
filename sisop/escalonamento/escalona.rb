@@ -11,7 +11,7 @@ for i in 1..n1
 		burst: split[0].to_i,
 		io: split[1].to_i,
 		done: 0,
-		name: "p-0-#{i}"
+		name: i
 	}
 end
 
@@ -25,7 +25,7 @@ for i in 1..n2
 		burst: split[0].to_i,
 		io: split[1].to_i,
 		done: 0,
-		name: "p-1-#{i}"
+		name: i+n1
 	}
 end
 
@@ -85,18 +85,10 @@ while not [@rr,@fcfs,@io].all? &:empty?
 	@rr.concat @fcfs.select{|p| @time - p[:wait_start] > @fcfs_limit}
 	@fcfs.delete_if{|p| @time - p[:wait_start] > @fcfs_limit}
 
-
-	unless @io.empty?
-		if not @rr.empty?
-			puts "t: #{@time}\tcpu: #{@rr[0][:name]}\tio: #{@io[0][:name]}"
-		elsif not @fcfs.empty?
-			"t: #{@time}\tcpu: #{@fcfs[0][:name]}\tio: #{@io[0][:name]}"
-		end
-	else
-		if not @rr.empty?
-			puts "t: #{@time}\tcpu: #{@rr[0][:name]}"
-		elsif not @fcfs.empty?
-			"t: #{@time}\tcpu: #{@fcfs[0][:name]}"
-		end
+	if not @rr.empty?
+		puts "#{@time}\t#{@rr.first[:name]}\t#{@io[0] and @io[0][:name]}"
+	elsif not @fcfs.empty?
+		puts "#{@time}\t#{@fcfs.first[:name]}\t#{@io[0] and @io[0][:name]}"
 	end
+
 end
